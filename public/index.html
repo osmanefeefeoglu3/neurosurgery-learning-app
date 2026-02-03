@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neurosurgery Learning App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="header">
+      <h1>🧠 Neurosurgery Learning</h1>
+      <p>Your personal procedure reference guide</p>
+    </header>
+
+    <!-- Search & Filter Bar -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search procedures..." />
+      <select id="categoryFilter">
+        <option value="">All Categories</option>
+      </select>
+      <button class="btn btn-primary" onclick="openAddModal()">+ Add Procedure</button>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Procedures List -->
+      <section class="procedures-list" id="proceduresList">
+        <p class="loading">Loading procedures...</p>
+      </section>
+
+      <!-- Step Viewer (hidden by default) -->
+      <section class="step-viewer hidden" id="stepViewer">
+        <div class="step-viewer-header">
+          <button class="btn btn-secondary" onclick="closeStepViewer()">← Back to List</button>
+          <h2 id="procedureTitle"></h2>
+        </div>
+
+        <div class="procedure-info" id="procedureInfo"></div>
+
+        <div class="steps-container">
+          <div class="steps-nav">
+            <button class="btn" id="prevStep" onclick="prevStep()">← Previous</button>
+            <span id="stepIndicator">Step 1 of 1</span>
+            <button class="btn" id="nextStep" onclick="nextStep()">Next →</button>
+          </div>
+
+          <div class="step-content" id="stepContent">
+            <h3 id="stepTitle"></h3>
+            <div id="stepDescription"></div>
+            <div class="step-tips" id="stepTips"></div>
+            <div class="step-warnings" id="stepWarnings"></div>
+          </div>
+
+          <div class="steps-progress">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Add/Edit Modal -->
+    <div class="modal hidden" id="procedureModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 id="modalTitle">Add New Procedure</h2>
+          <button class="close-btn" onclick="closeModal()">&times;</button>
+        </div>
+
+        <form id="procedureForm" onsubmit="saveProcedure(event)">
+          <input type="hidden" id="procedureId" />
+
+          <div class="form-group">
+            <label for="name">Procedure Name *</label>
+            <input type="text" id="name" required placeholder="e.g., Craniotomy for Tumor Resection" />
+          </div>
+
+          <div class="form-group">
+            <label for="category">Category</label>
+            <input type="text" id="category" placeholder="e.g., Tumor Surgery, Vascular, Spine" list="categoryList" />
+            <datalist id="categoryList"></datalist>
+          </div>
+
+          <div class="form-group">
+            <label for="description">Description</label>
+            <textarea id="description" rows="3" placeholder="Brief overview of the procedure"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="indications">Indications</label>
+            <textarea id="indications" rows="2" placeholder="When is this procedure indicated?"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="contraindications">Contraindications</label>
+            <textarea id="contraindications" rows="2" placeholder="When should this procedure be avoided?"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label>Procedure Steps</label>
+            <div id="stepsContainer"></div>
+            <button type="button" class="btn btn-secondary" onclick="addStepField()">+ Add Step</button>
+          </div>
+
+          <div class="form-actions">
+            <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+            <button type="submit" class="btn btn-primary">Save Procedure</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
