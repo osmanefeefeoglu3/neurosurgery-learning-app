@@ -1,0 +1,1777 @@
+{
+  "procedures": [
+    {
+      "id": 1,
+      "name": "rotate-reverse technique, modification of tomita spondylectomy ",
+      "category": "spinal bone tumor surgery ",
+      "description": "en bloc resection with posterior approach ",
+      "indications": "enneking stage 3 aggresive benign tumors \n1a,1b low grade and 2a,2b high grade primary malign bone tumors ",
+      "contraindications": "metasthases and lokal, active tumors, patitent multiple comorbidities",
+      "steps": [],
+      "created_at": "2026-02-02T21:08:06.246Z",
+      "updated_at": "2026-02-02T21:08:06.246Z"
+    },
+    {
+      "id": 2,
+      "name": "Craniotomy for Tumor Resection",
+      "category": "Tumor Surgery",
+      "description": "Surgical procedure to remove brain tumors through a bone flap opening in the skull.",
+      "indications": "Primary brain tumors (gliomas, meningiomas), metastatic brain tumors, accessible lesions causing mass effect or neurological deficits",
+      "contraindications": "Diffuse infiltrative tumors, poor surgical candidacy, lesions in eloquent areas without mapping capability",
+      "steps": [
+        {
+          "id": 1,
+          "step_number": 1,
+          "title": "Patient Positioning",
+          "description": "Position patient based on tumor location. Supine for frontal/temporal, lateral for parietal, prone/sitting for posterior fossa. Secure head in Mayfield pins.",
+          "tips": "Ensure adequate venous drainage by avoiding excessive neck flexion",
+          "warnings": "Check pin sites for pressure points"
+        },
+        {
+          "id": 2,
+          "step_number": 2,
+          "title": "Skin Incision & Flap",
+          "description": "Plan incision to allow adequate exposure. Create scalp flap with preservation of vascular pedicle.",
+          "tips": "Use neuronavigation for trajectory planning",
+          "warnings": "Avoid injury to superficial temporal artery"
+        },
+        {
+          "id": 3,
+          "step_number": 3,
+          "title": "Craniotomy",
+          "description": "Create burr holes at planned locations. Use craniotome to connect burr holes. Elevate bone flap carefully.",
+          "tips": "Keep bone flap moist in saline-soaked gauze",
+          "warnings": "Watch for dural adhesions to inner table"
+        },
+        {
+          "id": 4,
+          "step_number": 4,
+          "title": "Dural Opening",
+          "description": "Open dura in cruciate or curvilinear fashion. Tack up dural edges to prevent epidural bleeding.",
+          "tips": "Leave dural cuff for watertight closure",
+          "warnings": "Identify and protect cortical veins"
+        },
+        {
+          "id": 5,
+          "step_number": 5,
+          "title": "Tumor Resection",
+          "description": "Identify tumor margins using navigation, ultrasound, and/or fluorescence. Debulk tumor internally then dissect margins.",
+          "tips": "Use ultrasonic aspirator for firm tumors",
+          "warnings": "Avoid injury to eloquent cortex and major vessels"
+        },
+        {
+          "id": 6,
+          "step_number": 6,
+          "title": "Hemostasis & Closure",
+          "description": "Achieve meticulous hemostasis. Close dura watertight. Replace bone flap and secure with plates/screws. Close in layers.",
+          "tips": "Consider dural substitute if primary closure not possible",
+          "warnings": "Ensure no tension on brain surface before closing dura"
+        }
+      ],
+      "created_at": "2026-02-02T21:09:06.251Z",
+      "updated_at": "2026-02-02T21:09:06.251Z"
+    },
+    {
+      "id": 3,
+      "name": "Lumbar Microdiscectomy",
+      "category": "Spine Surgery",
+      "description": "Minimally invasive removal of herniated disc material compressing neural structures.",
+      "indications": "Lumbar disc herniation with radiculopathy, failed conservative treatment (6+ weeks), progressive neurological deficit, cauda equina syndrome",
+      "contraindications": "Spinal instability, significant central stenosis, infection at surgical site",
+      "steps": [
+        {
+          "id": 7,
+          "step_number": 1,
+          "title": "Patient Positioning",
+          "description": "Position prone on Wilson frame or Jackson table. Flex hips and knees to open interlaminar space. Apply padding to pressure points.",
+          "tips": "Ensure abdomen is free to reduce epidural venous pressure",
+          "warnings": "Avoid pressure on eyes and genitalia"
+        },
+        {
+          "id": 8,
+          "step_number": 2,
+          "title": "Localization",
+          "description": "Use fluoroscopy to confirm correct level. Mark incision site (typically 1-2 cm from midline on affected side).",
+          "tips": "Count from sacrum upward for accurate localization",
+          "warnings": "Wrong level surgery is a preventable complication"
+        },
+        {
+          "id": 9,
+          "step_number": 3,
+          "title": "Incision & Exposure",
+          "description": "Make 2-3 cm paramedian incision. Dissect through fascia. Use tubular retractor or self-retaining retractor to expose lamina.",
+          "tips": "Muscle-splitting approach reduces postoperative pain",
+          "warnings": "Stay lateral to spinous process"
+        },
+        {
+          "id": 10,
+          "step_number": 4,
+          "title": "Laminotomy",
+          "description": "Remove inferior portion of superior lamina and ligamentum flavum using Kerrison rongeurs. Create adequate window to visualize nerve root.",
+          "tips": "Use high-speed drill for calcified ligamentum",
+          "warnings": "Protect underlying dura during bone removal"
+        },
+        {
+          "id": 11,
+          "step_number": 5,
+          "title": "Nerve Root Retraction",
+          "description": "Identify and gently retract traversing nerve root medially. Identify disc herniation.",
+          "tips": "Use nerve root retractor with gentle pressure only",
+          "warnings": "Excessive retraction causes postoperative dysesthesia"
+        },
+        {
+          "id": 12,
+          "step_number": 6,
+          "title": "Discectomy",
+          "description": "Incise posterior annulus. Remove herniated disc fragment with pituitary rongeurs. Explore foramen for residual fragments.",
+          "tips": "Use angled curettes to check under endplates",
+          "warnings": "Avoid aggressive disc space curettage - increases recurrence"
+        },
+        {
+          "id": 13,
+          "step_number": 7,
+          "title": "Closure",
+          "description": "Achieve hemostasis with bipolar and hemostatic agents. Close fascia and skin in layers.",
+          "tips": "Fascia closure is critical to prevent CSF leak if dural tear occurred",
+          "warnings": "Document any incidental durotomy"
+        }
+      ],
+      "created_at": "2026-02-02T21:09:33.386Z",
+      "updated_at": "2026-02-02T21:09:33.386Z"
+    },
+    {
+      "id": 4,
+      "name": "Ventriculoperitoneal (VP) Shunt Placement",
+      "category": "CSF Disorders",
+      "description": "Surgical diversion of cerebrospinal fluid from the lateral ventricle to the peritoneal cavity for treatment of hydrocephalus.",
+      "indications": "Communicating hydrocephalus, obstructive hydrocephalus, normal pressure hydrocephalus (NPH), pseudotumor cerebri refractory to medical management",
+      "contraindications": "Active CNS or abdominal infection, peritoneal adhesions/malignancy, coagulopathy",
+      "steps": [
+        {
+          "id": 14,
+          "step_number": 1,
+          "title": "Preoperative Planning",
+          "description": "Review imaging for ventricle size and optimal entry point. Typically use Kocher point (frontal) or occipital approach.",
+          "tips": "Kocher point: 11cm posterior to nasion, 3cm lateral to midline, anterior to coronal suture",
+          "warnings": "Avoid motor strip and major vessels"
+        },
+        {
+          "id": 15,
+          "step_number": 2,
+          "title": "Patient Positioning",
+          "description": "Supine with head turned to contralateral side. Prep from scalp to lower abdomen. Roll under ipsilateral shoulder.",
+          "tips": "Ensure head and abdomen in same surgical field",
+          "warnings": "Secure head position to prevent movement"
+        },
+        {
+          "id": 16,
+          "step_number": 3,
+          "title": "Ventricular Catheter Placement",
+          "description": "Make burr hole at planned entry point. Open dura with cruciate incision. Insert ventricular catheter perpendicular to skull surface aiming at medial canthus of ipsilateral eye.",
+          "tips": "Target depth is typically 5-7cm from outer table",
+          "warnings": "Multiple passes increase hemorrhage risk"
+        },
+        {
+          "id": 17,
+          "step_number": 4,
+          "title": "Subcutaneous Tunneling",
+          "description": "Create pocket for valve behind ear. Use tunneling device to create subcutaneous path from cranial incision to abdominal incision.",
+          "tips": "Keep tunneler superficial to fascia",
+          "warnings": "Avoid injury to jugular vein in neck"
+        },
+        {
+          "id": 18,
+          "step_number": 5,
+          "title": "Abdominal Catheter Placement",
+          "description": "Make periumbilical or subcostal incision. Open peritoneum under direct vision. Insert distal catheter 20-25cm into peritoneal cavity.",
+          "tips": "Laparoscopic assistance useful in revision cases",
+          "warnings": "Ensure catheter tip is free and not kinked"
+        },
+        {
+          "id": 19,
+          "step_number": 6,
+          "title": "System Assembly & Testing",
+          "description": "Connect ventricular catheter to valve and distal tubing. Confirm CSF flow. Set programmable valve if applicable.",
+          "tips": "Document valve setting and type",
+          "warnings": "Avoid air in system"
+        },
+        {
+          "id": 20,
+          "step_number": 7,
+          "title": "Closure",
+          "description": "Close peritoneum, fascia, and skin at abdominal site. Close scalp in layers over valve.",
+          "tips": "Ensure valve is palpable but not under tension",
+          "warnings": "Meticulous closure prevents CSF leak and infection"
+        }
+      ],
+      "created_at": "2026-02-02T21:09:50.771Z",
+      "updated_at": "2026-02-02T21:09:50.771Z"
+    },
+    {
+      "id": 5,
+      "name": "Aneurysm Clipping",
+      "category": "Vascular Surgery",
+      "description": "Microsurgical obliteration of intracranial aneurysm using permanent clip to exclude it from circulation.",
+      "indications": "Ruptured intracranial aneurysm, unruptured aneurysm >7mm or symptomatic, aneurysm with unfavorable morphology for coiling",
+      "contraindications": "Severe vasospasm, poor neurological grade (Hunt-Hess V with poor prognosis), fusiform/dissecting aneurysms",
+      "steps": [
+        {
+          "id": 21,
+          "step_number": 1,
+          "title": "Preoperative Planning",
+          "description": "Review CT/CTA/DSA for aneurysm location, morphology, neck width, and relationship to parent/branch vessels. Plan craniotomy approach.",
+          "tips": "3D reconstructions help understand complex anatomy",
+          "warnings": "Identify perforating vessels near aneurysm dome"
+        },
+        {
+          "id": 22,
+          "step_number": 2,
+          "title": "Craniotomy",
+          "description": "Pterional craniotomy for most anterior circulation aneurysms. Remove sphenoid wing flush with middle fossa floor for optimal visualization.",
+          "tips": "Extensive bone removal allows brain relaxation and reduces retraction",
+          "warnings": "Protect optic nerve with minimal sphenoid drilling"
+        },
+        {
+          "id": 23,
+          "step_number": 3,
+          "title": "CSF Drainage & Brain Relaxation",
+          "description": "Open Sylvian fissure and cisterns to release CSF. Consider lumbar drain for tight brain.",
+          "tips": "Mannitol and hyperventilation as adjuncts",
+          "warnings": "Avoid premature aneurysm exposure with tight brain"
+        },
+        {
+          "id": 24,
+          "step_number": 4,
+          "title": "Proximal Control",
+          "description": "Identify and prepare internal carotid artery for temporary clipping if needed. Expose proximal parent vessel.",
+          "tips": "Have temporary clips ready before dissecting aneurysm",
+          "warnings": "Know location of M1, A1 for emergency control"
+        },
+        {
+          "id": 25,
+          "step_number": 5,
+          "title": "Aneurysm Dissection",
+          "description": "Carefully dissect aneurysm neck under high magnification. Identify all branches and perforators. Clear dome last.",
+          "tips": "Sharp dissection reduces rupture risk",
+          "warnings": "Dome is most fragile - avoid manipulation until neck is ready"
+        },
+        {
+          "id": 26,
+          "step_number": 6,
+          "title": "Clip Application",
+          "description": "Select appropriate clip type and size. Apply clip across neck perpendicular to parent vessel. Confirm complete obliteration.",
+          "tips": "Clip should be parallel to parent vessel axis",
+          "warnings": "Avoid stenosis of parent vessel or branch occlusion"
+        },
+        {
+          "id": 27,
+          "step_number": 7,
+          "title": "Verification & Closure",
+          "description": "Perform ICG angiography or micro-Doppler to confirm parent vessel patency. Inspect for residual filling. Standard craniotomy closure.",
+          "tips": "Intraoperative angiography is gold standard",
+          "warnings": "Do not leave residual neck - rebleeding risk"
+        }
+      ],
+      "created_at": "2026-02-02T21:10:13.853Z",
+      "updated_at": "2026-02-02T21:10:13.853Z"
+    },
+    {
+      "id": 6,
+      "name": "Transsphenoidal Pituitary Adenoma Resection",
+      "category": "Skull Base Surgery",
+      "description": "Endoscopic or microscopic approach through the sphenoid sinus for removal of pituitary tumors.",
+      "indications": "Pituitary macroadenoma with visual compromise, hormone-secreting adenoma, pituitary apoplexy",
+      "contraindications": "Sphenoid sinus infection, uncontrolled coagulopathy, significant lateral cavernous sinus extension (relative)",
+      "steps": [
+        {
+          "id": 28,
+          "step_number": 1,
+          "title": "Patient Positioning",
+          "description": "Supine with head in neutral position or slight extension. Apply Mayfield head holder or horseshoe. Position neuronavigation array.",
+          "tips": "Slight head elevation reduces venous pressure",
+          "warnings": "Confirm registration accuracy before proceeding"
+        },
+        {
+          "id": 29,
+          "step_number": 2,
+          "title": "Nasal Phase",
+          "description": "Perform wide sphenoidotomy using endoscopic or sublabial microscopic approach. Remove middle turbinate if needed for exposure.",
+          "tips": "Avoid septal perforations by careful submucosal dissection",
+          "warnings": "Identify sphenoid ostium and rostrum landmarks"
+        },
+        {
+          "id": 30,
+          "step_number": 3,
+          "title": "Sphenoid Phase",
+          "description": "Open anterior sphenoid wall widely. Identify sellar floor, carotid prominences, optic nerve impressions, and clival recess.",
+          "tips": "Use navigation to confirm midline",
+          "warnings": "Do not stray lateral to carotid prominences"
+        },
+        {
+          "id": 31,
+          "step_number": 4,
+          "title": "Sellar Phase",
+          "description": "Remove sellar floor bone to expose dura. Open sellar dura in cruciate fashion after confirming normal position.",
+          "tips": "Venous bleeding indicates cavernous sinus entry",
+          "warnings": "Watch for ectatic or dehiscent carotid artery"
+        },
+        {
+          "id": 32,
+          "step_number": 5,
+          "title": "Tumor Removal",
+          "description": "Remove tumor using ring curettes and suction. Systematic exploration of sellar cavity - inferior, lateral, superior compartments.",
+          "tips": "Angled endoscopes visualize suprasellar extension",
+          "warnings": "Preserve normal pituitary gland posteriorly and superiorly"
+        },
+        {
+          "id": 33,
+          "step_number": 6,
+          "title": "CSF Leak Management",
+          "description": "Perform Valsalva maneuver to check for CSF leak. If present, repair with fat graft, fascia lata, and/or nasoseptal flap.",
+          "tips": "Multilayer closure for high-flow leaks",
+          "warnings": "Unrepaired leak leads to meningitis"
+        },
+        {
+          "id": 34,
+          "step_number": 7,
+          "title": "Closure",
+          "description": "Pack sphenoid sinus with fat or absorbable material. Place nasal splints or packing as needed. Remove lumbar drain if placed.",
+          "tips": "Minimize nasal packing to reduce patient discomfort",
+          "warnings": "Instruct patient on CSF leak precautions postoperatively"
+        }
+      ],
+      "created_at": "2026-02-02T21:10:31.903Z",
+      "updated_at": "2026-02-02T21:10:31.903Z"
+    },
+    {
+      "id": 7,
+      "name": "Anterior Cervical Discectomy and Fusion (ACDF)",
+      "category": "Spine Surgery",
+      "description": "Anterior approach to remove cervical disc and decompress neural elements with interbody fusion.",
+      "indications": "Cervical radiculopathy from disc herniation, cervical myelopathy from disc or osteophyte, degenerative disc disease with instability",
+      "contraindications": "Active infection, severe osteoporosis (relative), previous anterior neck surgery with scarring (relative)",
+      "steps": [
+        {
+          "id": 35,
+          "step_number": 1,
+          "title": "Patient Positioning",
+          "description": "Supine with neck in neutral position. Place shoulder roll. Slight extension for exposure. Apply Gardner-Wells tongs or tape for traction.",
+          "tips": "Avoid hyperextension in myelopathic patients",
+          "warnings": "Confirm no instability on flexion-extension X-rays"
+        },
+        {
+          "id": 36,
+          "step_number": 2,
+          "title": "Approach",
+          "description": "Make transverse skin incision at planned level (use landmarks: C3-4 = hyoid, C4-5 = thyroid, C5-6 = cricoid). Dissect along medial border of SCM.",
+          "tips": "Left-sided approach avoids recurrent laryngeal nerve variation",
+          "warnings": "Protect carotid sheath laterally, esophagus/trachea medially"
+        },
+        {
+          "id": 37,
+          "step_number": 3,
+          "title": "Level Identification",
+          "description": "Confirm level with lateral fluoroscopy using spinal needle in disc space. Mark adjacent levels if multi-level.",
+          "tips": "Place marker at most caudal level and count up",
+          "warnings": "Wrong level surgery - always confirm radiographically"
+        },
+        {
+          "id": 38,
+          "step_number": 4,
+          "title": "Disc Removal",
+          "description": "Place Caspar or similar distraction pins. Remove anterior annulus and disc with pituitary rongeurs and curettes. Clear to posterior longitudinal ligament.",
+          "tips": "Use operating microscope or loupe magnification",
+          "warnings": "Stay midline - lateral is vertebral artery"
+        },
+        {
+          "id": 39,
+          "step_number": 5,
+          "title": "Decompression",
+          "description": "Remove posterior osteophytes with high-speed drill and Kerrison rongeurs. Decompress nerve roots bilaterally. Remove PLL if compressive.",
+          "tips": "Identify uncovertebral joints as lateral limits",
+          "warnings": "Thin posterior osteophytes before removing to protect cord"
+        },
+        {
+          "id": 40,
+          "step_number": 6,
+          "title": "Fusion",
+          "description": "Measure interbody space. Insert appropriately sized PEEK or allograft cage packed with bone graft or substitute. Confirm position with fluoroscopy.",
+          "tips": "Cage should be 1-2mm proud of vertebral bodies",
+          "warnings": "Oversized cage causes endplate fracture"
+        },
+        {
+          "id": 41,
+          "step_number": 7,
+          "title": "Plating & Closure",
+          "description": "Apply anterior cervical plate with variable-angle screws. Confirm hardware position. Close platysma, subcutaneous tissue, and skin.",
+          "tips": "Bicortical screw purchase improves stability",
+          "warnings": "Screws should not violate posterior cortex or disc space"
+        }
+      ],
+      "created_at": "2026-02-02T21:10:48.149Z",
+      "updated_at": "2026-02-02T21:10:48.150Z"
+    },
+    {
+      "id": 8,
+      "name": "Decompressive Craniectomy",
+      "category": "Trauma Surgery",
+      "description": "Emergency removal of large skull segment to allow brain swelling and reduce intracranial pressure.",
+      "indications": "Malignant MCA infarction, severe TBI with refractory ICP elevation, large hemorrhagic stroke with mass effect",
+      "contraindications": "GCS 3 with bilateral fixed dilated pupils (relative), extensive bilateral damage, devastating primary injury with no chance of meaningful recovery",
+      "steps": [
+        {
+          "id": 42,
+          "step_number": 1,
+          "title": "Preoperative Assessment",
+          "description": "Review CT for midline shift, cisternal effacement, herniation. Assess neurological status. Discuss prognosis with family.",
+          "tips": "Document pre-op neuro exam clearly",
+          "warnings": "This is salvage surgery - outcomes vary widely"
+        },
+        {
+          "id": 43,
+          "step_number": 2,
+          "title": "Patient Positioning",
+          "description": "Supine with head turned or lateral position. Elevate head of bed 30 degrees. Apply Mayfield pins avoiding area of decompression.",
+          "tips": "Ensure adequate surgical field - entire hemicranium exposed",
+          "warnings": "Avoid jugular compression"
+        },
+        {
+          "id": 44,
+          "step_number": 3,
+          "title": "Skin Incision",
+          "description": "Large question-mark or trauma flap incision. Must extend to floor of middle fossa and across midline. Preserve superficial temporal artery if possible.",
+          "tips": "Plan for future cranioplasty",
+          "warnings": "Inadequate exposure leads to inadequate decompression"
+        },
+        {
+          "id": 45,
+          "step_number": 4,
+          "title": "Craniectomy",
+          "description": "Create multiple burr holes. Perform large craniectomy (minimum 12cm AP x 15cm vertical). Remove bone to middle fossa floor and within 2cm of midline.",
+          "tips": "Larger is better for decompression",
+          "warnings": "Small craniectomy causes brain fungation and herniation through defect"
+        },
+        {
+          "id": 46,
+          "step_number": 5,
+          "title": "Durotomy",
+          "description": "Open dura widely in stellate or cruciate fashion. Allow brain to expand. Do not attempt duraplasty if brain is very swollen.",
+          "tips": "Score dura in multiple places if needed",
+          "warnings": "Venous bleeding from sagittal sinus - stay 2cm from midline"
+        },
+        {
+          "id": 47,
+          "step_number": 6,
+          "title": "Duraplasty",
+          "description": "If brain is not excessively swollen, perform expansion duraplasty with pericranium, dural substitute, or fascial graft.",
+          "tips": "Watertight closure not essential in emergency setting",
+          "warnings": "Do not compress brain with tight duraplasty"
+        },
+        {
+          "id": 48,
+          "step_number": 7,
+          "title": "Closure",
+          "description": "Close galea and skin loosely. Store bone flap in subcutaneous abdominal pocket or bone bank (-80°C). Plan cranioplasty for 6-12 weeks later.",
+          "tips": "Abdominal storage has higher bone viability",
+          "warnings": "Document bone storage location clearly"
+        }
+      ],
+      "created_at": "2026-02-02T21:11:04.926Z",
+      "updated_at": "2026-02-02T21:11:04.926Z"
+    },
+    {
+      "id": 9,
+      "name": "Acoustic Neuroma (Vestibular Schwannoma) Resection",
+      "category": "Skull Base Surgery",
+      "description": "Microsurgical removal of benign tumor arising from vestibular nerve, typically via retrosigmoid or translabyrinthine approach.",
+      "indications": "Growing tumor, tumor >2.5cm, symptomatic with hearing loss/tinnitus/imbalance, brainstem compression",
+      "contraindications": "Elderly with small stable tumor, only hearing ear (relative), significant medical comorbidities",
+      "steps": [
+        {
+          "id": 49,
+          "step_number": 1,
+          "title": "Approach Selection",
+          "description": "Choose based on tumor size and hearing status: Retrosigmoid (hearing preservation attempt), Translabyrinthine (no serviceable hearing, excellent facial nerve exposure), Middle fossa (small intracanalicular, hearing preservation).",
+          "tips": "Preoperative audiometry essential for decision-making",
+          "warnings": "Discuss realistic expectations for hearing and facial nerve outcomes"
+        },
+        {
+          "id": 50,
+          "step_number": 2,
+          "title": "Patient Positioning",
+          "description": "Lateral position (retrosigmoid/translabyrinthine) or supine with head turned (middle fossa). Monitor facial nerve EMG. Consider ABR monitoring.",
+          "tips": "Test facial nerve monitoring before incision",
+          "warnings": "Ensure all team members know stimulation thresholds"
+        },
+        {
+          "id": 51,
+          "step_number": 3,
+          "title": "Craniotomy/Mastoidectomy",
+          "description": "Retrosigmoid: posterior fossa craniotomy behind sigmoid sinus. Translabyrinthine: complete mastoidectomy with labyrinthectomy exposing IAC.",
+          "tips": "Identify sigmoid sinus and jugular bulb early",
+          "warnings": "Injury to sigmoid/jugular causes major hemorrhage"
+        },
+        {
+          "id": 52,
+          "step_number": 4,
+          "title": "Dural Opening & Cistern Access",
+          "description": "Open dura, release CSF from cisterna magna for brain relaxation. Identify tumor in CPA.",
+          "tips": "Gentle cerebellar retraction only",
+          "warnings": "PICA and AICA run near tumor - identify early"
+        },
+        {
+          "id": 53,
+          "step_number": 5,
+          "title": "Tumor Debulking",
+          "description": "Internally debulk tumor using ultrasonic aspirator or laser. Maintain capsule integrity. Identify facial nerve plane early.",
+          "tips": "Facial nerve usually anterior-inferior on tumor surface",
+          "warnings": "Stimulate frequently to locate facial nerve"
+        },
+        {
+          "id": 54,
+          "step_number": 6,
+          "title": "Capsule Dissection",
+          "description": "Carefully separate tumor capsule from facial nerve, cochlear nerve (if preserving), and brainstem. Sharp dissection preferred.",
+          "tips": "Slow dissection near facial nerve with continuous monitoring",
+          "warnings": "Do not pull on tumor - stretches facial nerve"
+        },
+        {
+          "id": 55,
+          "step_number": 7,
+          "title": "IAC Drilling",
+          "description": "Drill posterior wall of internal auditory canal to remove intracanalicular tumor. Identify lateral end of tumor.",
+          "tips": "Continuous irrigation prevents thermal injury",
+          "warnings": "Avoid injury to labyrinth if hearing preservation planned"
+        },
+        {
+          "id": 56,
+          "step_number": 8,
+          "title": "Closure",
+          "description": "Achieve hemostasis. Pack mastoid with fat (translabyrinthine). Close dura watertight. Consider lumbar drain for high-risk CSF leak.",
+          "tips": "Fat obliteration reduces CSF leak risk",
+          "warnings": "CSF leak most common complication - meticulous closure essential"
+        }
+      ],
+      "created_at": "2026-02-02T21:11:22.290Z",
+      "updated_at": "2026-02-02T21:11:22.290Z"
+    },
+    {
+      "id": 10,
+      "name": "Chronic Subdural Hematoma Evacuation",
+      "category": "Trauma Surgery",
+      "description": "Surgical drainage of chronic subdural blood collection through burr holes or craniotomy.",
+      "indications": "Symptomatic chronic subdural hematoma, midline shift >5mm, neurological deterioration, hematoma thickness >10mm",
+      "contraindications": "Asymptomatic small hematoma, coagulopathy (correct first), patient on anticoagulation (reverse if possible)",
+      "steps": [
+        {
+          "id": 57,
+          "step_number": 1,
+          "title": "Preoperative Planning",
+          "description": "Review CT for hematoma location, thickness, presence of membranes/loculations, midline shift. Single vs bilateral. Check coagulation status.",
+          "tips": "Bilateral hematomas require bilateral procedures",
+          "warnings": "Hold anticoagulants and correct coagulopathy"
+        },
+        {
+          "id": 58,
+          "step_number": 2,
+          "title": "Patient Positioning",
+          "description": "Supine with head turned or in Mayfield if craniotomy planned. Prep widely to allow extension if needed.",
+          "tips": "Slight head elevation reduces venous pressure",
+          "warnings": "Mark correct side clearly"
+        },
+        {
+          "id": 59,
+          "step_number": 3,
+          "title": "Burr Hole Technique",
+          "description": "One or two burr holes over maximum thickness. Frontal burr hole near coronal suture, parietal burr hole behind coronal suture.",
+          "tips": "Two burr holes allow irrigation through and through",
+          "warnings": "Be cautious if hematoma is under pressure"
+        },
+        {
+          "id": 60,
+          "step_number": 4,
+          "title": "Hematoma Drainage",
+          "description": "Open dura carefully. Liquefied hematoma will drain spontaneously. Irrigate gently with warm saline until clear.",
+          "tips": "Patient coughing helps expel residual hematoma",
+          "warnings": "Aggressive irrigation can injure brain"
+        },
+        {
+          "id": 61,
+          "step_number": 5,
+          "title": "Subdural Drain Placement",
+          "description": "Place soft silicone drain into subdural space. Direct anteriorly and posteriorly. Connect to closed drainage system.",
+          "tips": "Drain for 24-48 hours reduces recurrence",
+          "warnings": "Avoid drain migration into brain parenchyma"
+        },
+        {
+          "id": 62,
+          "step_number": 6,
+          "title": "Closure",
+          "description": "Close galea and skin. Tape drain securely. Bed rest with head of bed flat or slightly elevated for 24-48 hours.",
+          "tips": "Flat positioning allows brain re-expansion",
+          "warnings": "Early mobilization increases recurrence risk"
+        },
+        {
+          "id": 63,
+          "step_number": 7,
+          "title": "Postoperative Care",
+          "description": "Monitor neurological status. Check CT at 24-48 hours before drain removal. Hydration to allow brain re-expansion.",
+          "tips": "Gradual head elevation after drain removal",
+          "warnings": "Recurrence rate 10-20% - counsel patient"
+        }
+      ],
+      "created_at": "2026-02-02T21:11:36.730Z",
+      "updated_at": "2026-02-02T21:11:36.730Z"
+    },
+    {
+      "id": 11,
+      "name": "Posterior Lumbar Interbody Fusion (PLIF)",
+      "category": "Spine Surgery",
+      "description": "Posterior approach lumbar fusion with interbody cage placement and pedicle screw fixation.",
+      "indications": "Degenerative disc disease with instability, spondylolisthesis, recurrent disc herniation, failed back surgery syndrome",
+      "contraindications": "Active infection, severe osteoporosis, medical comorbidities precluding major surgery",
+      "steps": [
+        {
+          "id": 64,
+          "step_number": 1,
+          "title": "Patient Positioning",
+          "description": "Prone on Jackson table or Wilson frame. Ensure abdomen is free. Apply padding to all pressure points. Prep for posterior approach.",
+          "tips": "Proper positioning reduces blood loss significantly",
+          "warnings": "Avoid direct pressure on eyes"
+        },
+        {
+          "id": 65,
+          "step_number": 2,
+          "title": "Exposure",
+          "description": "Midline incision over planned levels. Subperiosteal dissection to expose spinous processes, laminae, facets, and transverse processes.",
+          "tips": "Bovie cautery on bone surface reduces bleeding",
+          "warnings": "Stay in midline to minimize muscle injury"
+        },
+        {
+          "id": 66,
+          "step_number": 3,
+          "title": "Pedicle Screw Placement",
+          "description": "Identify pedicle entry points using anatomic landmarks. Use fluoroscopy and/or navigation. Create pilot hole, sound pedicle, tap, insert screw.",
+          "tips": "Freehand technique: 10-15° lateral angulation, follow pedicle axis",
+          "warnings": "Medial breach risks nerve root injury"
+        },
+        {
+          "id": 67,
+          "step_number": 4,
+          "title": "Decompression",
+          "description": "Perform laminectomy or laminotomy. Remove ligamentum flavum. Expose dura and nerve roots. Decompress laterally to foramina.",
+          "tips": "Preserve facet joints if not fusing that level",
+          "warnings": "Protect dura during bone removal"
+        },
+        {
+          "id": 68,
+          "step_number": 5,
+          "title": "Discectomy",
+          "description": "Retract thecal sac medially. Incise annulus. Perform thorough discectomy with curettes and pituitary rongeurs. Prepare endplates.",
+          "tips": "Cartilaginous endplate removal improves fusion rates",
+          "warnings": "Avoid penetrating anterior annulus - major vessels at risk"
+        },
+        {
+          "id": 69,
+          "step_number": 6,
+          "title": "Cage Insertion",
+          "description": "Size interbody space. Pack cages with bone graft. Insert bilateral PLIF cages. Confirm position and restore disc height.",
+          "tips": "Angle cage insertion to optimize position",
+          "warnings": "Oversized cage causes nerve root compression"
+        },
+        {
+          "id": 70,
+          "step_number": 7,
+          "title": "Rod Placement & Compression",
+          "description": "Contour rods to match lumbar lordosis. Insert rods and secure with set screws. Apply gentle compression across construct.",
+          "tips": "Check sagittal alignment before final tightening",
+          "warnings": "Excessive compression causes foraminal stenosis"
+        },
+        {
+          "id": 71,
+          "step_number": 8,
+          "title": "Closure",
+          "description": "Copious irrigation. Hemostasis. Place drain if significant oozing. Close fascia, subcutaneous tissue, and skin in layers.",
+          "tips": "Meticulous fascial closure prevents CSF leak if dural injury occurred",
+          "warnings": "Document screw sizes and positions"
+        }
+      ],
+      "created_at": "2026-02-02T21:11:53.544Z",
+      "updated_at": "2026-02-02T21:11:53.544Z"
+    },
+    {
+      "id": 12,
+      "name": "Endoscopic Third Ventriculostomy (ETV)",
+      "category": "CSF Disorders",
+      "description": "Minimally invasive endoscopic procedure to create communication between third ventricle and prepontine cistern for obstructive hydrocephalus.",
+      "indications": "Obstructive hydrocephalus, aqueductal stenosis, posterior fossa tumor with hydrocephalus, shunt infection requiring shunt removal",
+      "contraindications": "Communicating hydrocephalus, prepontine scarring, severely abnormal anatomy, very small third ventricle",
+      "steps": [
+        {
+          "id": 72,
+          "step_number": 1,
+          "title": "Patient Selection",
+          "description": "Confirm obstructive hydrocephalus on MRI. Evaluate floor of third ventricle and prepontine cistern. Check for scarring or anatomic abnormalities.",
+          "tips": "ETV success score helps predict outcome",
+          "warnings": "Best results in older children/adults with aqueductal stenosis"
+        },
+        {
+          "id": 73,
+          "step_number": 2,
+          "title": "Patient Positioning",
+          "description": "Supine with head in Mayfield or horseshoe. Flex neck slightly. Prep for frontal burr hole.",
+          "tips": "Navigation helpful but not essential",
+          "warnings": "Ensure head position allows midline trajectory"
+        },
+        {
+          "id": 74,
+          "step_number": 3,
+          "title": "Burr Hole & Approach",
+          "description": "Frontal burr hole at Kocher point (3cm lateral to midline, 1cm anterior to coronal suture). Open dura. Coagulate and open pia.",
+          "tips": "Slightly more anterior and medial than VP shunt trajectory",
+          "warnings": "Avoid injury to sagittal sinus and cortical veins"
+        },
+        {
+          "id": 75,
+          "step_number": 4,
+          "title": "Ventricular Entry",
+          "description": "Advance endoscope perpendicular to skull surface toward ipsilateral medial canthus. Enter lateral ventricle. Identify foramen of Monro.",
+          "tips": "Irrigate continuously to maintain visualization",
+          "warnings": "Avoid septal vein and choroid plexus injury"
+        },
+        {
+          "id": 76,
+          "step_number": 5,
+          "title": "Third Ventricle Navigation",
+          "description": "Pass endoscope through foramen of Monro into third ventricle. Identify floor landmarks: mammillary bodies, infundibular recess, tuber cinereum.",
+          "tips": "Floor should be thin and translucent ideally",
+          "warnings": "Thick scarred floor reduces success and increases risk"
+        },
+        {
+          "id": 77,
+          "step_number": 6,
+          "title": "Fenestration",
+          "description": "Identify safe zone between mammillary bodies and infundibular recess. Create fenestration using blunt probe, balloon, or laser. Enlarge to 5-6mm.",
+          "tips": "Look for basilar artery through fenestration",
+          "warnings": "Avoid basilar artery - catastrophic hemorrhage if injured"
+        },
+        {
+          "id": 78,
+          "step_number": 7,
+          "title": "Verification & Closure",
+          "description": "Confirm patency by visualizing pulsatile CSF flow and underlying prepontine structures. Withdraw endoscope. Close wound in layers.",
+          "tips": "See the basilar artery and prepontine cistern through hole",
+          "warnings": "Inadequate fenestration will restenose"
+        }
+      ],
+      "created_at": "2026-02-02T21:12:08.926Z",
+      "updated_at": "2026-02-02T21:12:08.927Z"
+    },
+    {
+      "id": 13,
+      "name": "Arteriovenous Malformation (AVM) Resection",
+      "category": "Vascular Surgery",
+      "description": "Microsurgical excision of cerebral arteriovenous malformation to eliminate hemorrhage risk.",
+      "indications": "Ruptured AVM, Spetzler-Martin grade I-III, symptomatic unruptured AVM in young patients, failed embolization/radiosurgery",
+      "contraindications": "High-grade AVM (IV-V) in eloquent cortex, deep AVMs with diffuse nidus, elderly with unruptured AVM",
+      "steps": [
+        {
+          "id": 79,
+          "step_number": 1,
+          "title": "Preoperative Planning",
+          "description": "Review DSA for feeding arteries, nidus location, draining veins. Calculate Spetzler-Martin grade. Consider preoperative embolization.",
+          "tips": "3D reconstructions help understand angioarchitecture",
+          "warnings": "Identify deep feeders and en passage vessels"
+        },
+        {
+          "id": 80,
+          "step_number": 2,
+          "title": "Craniotomy",
+          "description": "Plan craniotomy to expose entire nidus plus surrounding normal brain. Use navigation for deep lesions.",
+          "tips": "Larger exposure allows better circumferential dissection",
+          "warnings": "Avoid injury to major draining veins before nidus isolation"
+        },
+        {
+          "id": 81,
+          "step_number": 3,
+          "title": "Identify Margins",
+          "description": "Use navigation, ultrasound, and visual inspection to define nidus margins. Identify all superficial feeding arteries and draining veins.",
+          "tips": "Arteries enter nidus, veins exit - critical distinction",
+          "warnings": "Never sacrifice draining vein until all feeders controlled"
+        },
+        {
+          "id": 82,
+          "step_number": 4,
+          "title": "Circumferential Dissection",
+          "description": "Dissect around nidus in gliotic plane. Coagulate and divide feeding arteries as encountered. Work circumferentially.",
+          "tips": "Stay in gliotic plane - easier dissection, less bleeding",
+          "warnings": "Entering nidus causes severe hemorrhage"
+        },
+        {
+          "id": 83,
+          "step_number": 5,
+          "title": "Deep Feeder Control",
+          "description": "As superficial feeders are divided, nidus will become softer. Identify and control deep/white matter feeders.",
+          "tips": "Progressive softening indicates good progress",
+          "warnings": "Deep feeders can retract if not properly coagulated"
+        },
+        {
+          "id": 84,
+          "step_number": 6,
+          "title": "Venous Disconnection",
+          "description": "Only after all arterial feeders are divided, coagulate and divide draining veins. Remove nidus en bloc.",
+          "tips": "Nidus should be completely deflated before vein division",
+          "warnings": "Premature vein sacrifice causes catastrophic swelling/hemorrhage"
+        },
+        {
+          "id": 85,
+          "step_number": 7,
+          "title": "Hemostasis & Verification",
+          "description": "Meticulous hemostasis of resection cavity. Perform intraoperative DSA to confirm complete resection. No residual AVM.",
+          "tips": "ICG angiography can supplement formal angiography",
+          "warnings": "Residual AVM has high rebleed risk - must be complete"
+        }
+      ],
+      "created_at": "2026-02-02T21:14:53.007Z",
+      "updated_at": "2026-02-02T21:14:53.007Z"
+    },
+    {
+      "id": 14,
+      "name": "Spinal Cord Tumor Resection",
+      "category": "Spine Surgery",
+      "description": "Microsurgical removal of intramedullary or intradural extramedullary spinal cord tumors.",
+      "indications": "Progressive neurological deficit, radiographic tumor growth, symptomatic tumor, diagnostic uncertainty",
+      "contraindications": "Diffuse infiltrative tumor, poor surgical candidate, stable asymptomatic lesion in elderly",
+      "steps": [
+        {
+          "id": 86,
+          "step_number": 1,
+          "title": "Preoperative Planning",
+          "description": "Review MRI for tumor location (intramedullary vs extramedullary), extent, and relationship to cord. Plan laminectomy levels.",
+          "tips": "Include one level above and below tumor",
+          "warnings": "Assess for syrinx which may extend beyond tumor"
+        },
+        {
+          "id": 87,
+          "step_number": 2,
+          "title": "Patient Positioning",
+          "description": "Prone on Wilson frame or Jackson table. Apply neurophysiological monitoring: SSEPs, MEPs, EMG, D-waves.",
+          "tips": "Baseline monitoring before incision critical",
+          "warnings": "Significant MEP drop indicates cord injury"
+        },
+        {
+          "id": 88,
+          "step_number": 3,
+          "title": "Laminectomy/Laminoplasty",
+          "description": "Midline incision, subperiosteal dissection. Perform laminectomy or laminoplasty to expose dura over tumor extent.",
+          "tips": "Laminoplasty preserves stability in multi-level exposure",
+          "warnings": "Avoid dural injury during bone removal"
+        },
+        {
+          "id": 89,
+          "step_number": 4,
+          "title": "Dural Opening",
+          "description": "Open dura in midline. Identify tumor location. For extramedullary tumors, tumor visible immediately. For intramedullary, identify cord expansion.",
+          "tips": "Tack up dura to prevent epidural bleeding",
+          "warnings": "Avoid cord manipulation before adequate exposure"
+        },
+        {
+          "id": 90,
+          "step_number": 5,
+          "title": "Tumor Resection - Extramedullary",
+          "description": "For schwannoma/meningioma: identify tumor-cord plane, internally debulk, then dissect capsule from cord. Preserve nerve roots if possible.",
+          "tips": "Nerve root of origin often must be sacrificed for schwannoma",
+          "warnings": "Avoid cord retraction - use tumor manipulation instead"
+        },
+        {
+          "id": 91,
+          "step_number": 6,
+          "title": "Tumor Resection - Intramedullary",
+          "description": "Perform midline myelotomy. Develop plane between tumor and cord. Use ultrasonic aspirator for internal debulking. Dissect margins carefully.",
+          "tips": "Ependymomas have good plane, astrocytomas infiltrate",
+          "warnings": "MEP changes mandate pause - irrigate and wait"
+        },
+        {
+          "id": 92,
+          "step_number": 7,
+          "title": "Closure",
+          "description": "Achieve hemostasis. Close dura watertight. Replace laminae if laminoplasty performed. Close fascia and skin in layers.",
+          "tips": "Watertight dural closure prevents CSF leak/pseudomeningocele",
+          "warnings": "Monitor neurological status closely postoperatively"
+        }
+      ],
+      "created_at": "2026-02-02T21:15:08.951Z",
+      "updated_at": "2026-02-02T21:15:08.951Z"
+    },
+    {
+      "id": 15,
+      "name": "Deep Brain Stimulation (DBS) Implantation",
+      "category": "Functional Neurosurgery",
+      "description": "Stereotactic implantation of electrodes into deep brain nuclei for treatment of movement disorders.",
+      "indications": "Parkinson disease with motor fluctuations, essential tremor refractory to medication, dystonia, OCD (humanitarian device exemption)",
+      "contraindications": "Dementia, active psychiatric illness, unrealistic expectations, medical comorbidities precluding surgery, anticoagulation that cannot be stopped",
+      "steps": [
+        {
+          "id": 93,
+          "step_number": 1,
+          "title": "Target Selection & Planning",
+          "description": "Choose target based on indication: STN or GPi for Parkinson, VIM for tremor, GPi for dystonia. Plan trajectory avoiding vessels and ventricles.",
+          "tips": "Merge MRI with CT for frame-based coordinates",
+          "warnings": "Review trajectory for vessels on contrast MRI"
+        },
+        {
+          "id": 94,
+          "step_number": 2,
+          "title": "Frame Placement",
+          "description": "Apply stereotactic frame (Leksell, CRW) under local anesthesia. Ensure rigid fixation parallel to AC-PC plane.",
+          "tips": "Pin sites: frontal and occipital, above ear line",
+          "warnings": "Inadequate fixation causes targeting error"
+        },
+        {
+          "id": 95,
+          "step_number": 3,
+          "title": "CT/MRI Acquisition",
+          "description": "Obtain volumetric imaging with frame in place. Fuse images and calculate stereotactic coordinates. Verify trajectory.",
+          "tips": "Direct targeting on T2 MRI for STN visualization",
+          "warnings": "Confirm no shift from frame application"
+        },
+        {
+          "id": 96,
+          "step_number": 4,
+          "title": "Burr Hole & Dural Opening",
+          "description": "Frontal burr hole based on planned trajectory. Open dura with bipolar cautery. Apply fibrin glue to prevent CSF leak/pneumocephalus.",
+          "tips": "Entry point typically 2-3 cm lateral to midline",
+          "warnings": "Extensive CSF loss causes brain shift and targeting error"
+        },
+        {
+          "id": 97,
+          "step_number": 5,
+          "title": "Microelectrode Recording",
+          "description": "Advance microelectrode along planned trajectory. Record neuronal activity to identify target structure. Map boundaries.",
+          "tips": "Characteristic firing patterns identify each nucleus",
+          "warnings": "Multiple passes increase hemorrhage risk"
+        },
+        {
+          "id": 98,
+          "step_number": 6,
+          "title": "Test Stimulation",
+          "description": "Perform macrostimulation at target. Assess for tremor reduction, rigidity improvement, and side effects (paresthesias, diplopia, speech changes).",
+          "tips": "Therapeutic window = benefit threshold minus side effect threshold",
+          "warnings": "Low threshold side effects suggest electrode misplacement"
+        },
+        {
+          "id": 99,
+          "step_number": 7,
+          "title": "Permanent Electrode Implantation",
+          "description": "Replace microelectrode with permanent DBS lead. Secure with cap/burr hole ring. Confirm position with fluoroscopy.",
+          "tips": "Minimize lead manipulation to prevent displacement",
+          "warnings": "Document final coordinates for future reference"
+        },
+        {
+          "id": 100,
+          "step_number": 8,
+          "title": "IPG Implantation",
+          "description": "Tunnel extension wire to infraclavicular pocket. Connect to implantable pulse generator. Test impedances. Close in layers.",
+          "tips": "Can be same day or staged procedure",
+          "warnings": "Ensure adequate pocket size to prevent erosion"
+        }
+      ],
+      "created_at": "2026-02-02T21:15:26.403Z",
+      "updated_at": "2026-02-02T21:15:26.403Z"
+    },
+    {
+      "id": 16,
+      "name": "Carpal Tunnel Release",
+      "category": "Peripheral Nerve Surgery",
+      "description": "Surgical decompression of median nerve at the wrist by dividing the transverse carpal ligament.",
+      "indications": "Failed conservative treatment, thenar atrophy, constant numbness, severe EMG findings, acute carpal tunnel syndrome",
+      "contraindications": "Active infection, uncontrolled diabetes (relative), anticoagulation (relative)",
+      "steps": [
+        {
+          "id": 101,
+          "step_number": 1,
+          "title": "Patient Positioning",
+          "description": "Supine with arm extended on hand table. Apply tourniquet to upper arm. Prep and drape hand and forearm.",
+          "tips": "Exsanguinate arm before inflating tourniquet",
+          "warnings": "Note tourniquet time - limit to 2 hours"
+        },
+        {
+          "id": 102,
+          "step_number": 2,
+          "title": "Incision Planning",
+          "description": "Mark incision in line with radial border of ring finger, extending from wrist crease to mid-palm. Avoid crossing wrist crease perpendicularly.",
+          "tips": "Stay ulnar to thenar crease to avoid palmar cutaneous branch",
+          "warnings": "Incision too radial risks thenar branch injury"
+        },
+        {
+          "id": 103,
+          "step_number": 3,
+          "title": "Superficial Dissection",
+          "description": "Incise skin and palmar fascia. Identify palmaris longus tendon proximally. Expose proximal edge of transverse carpal ligament.",
+          "tips": "Protect superficial palmar arch distally",
+          "warnings": "Beware anatomical variants of median nerve"
+        },
+        {
+          "id": 104,
+          "step_number": 4,
+          "title": "Ligament Division",
+          "description": "Divide transverse carpal ligament under direct vision from distal to proximal. Use elevator deep to ligament to protect median nerve.",
+          "tips": "Complete release includes antebrachial fascia proximally",
+          "warnings": "Incomplete release is most common cause of failure"
+        },
+        {
+          "id": 105,
+          "step_number": 5,
+          "title": "Nerve Inspection",
+          "description": "Visualize median nerve after decompression. Note any compression, hourglass deformity, or neuroma. Perform neurolysis only if indicated.",
+          "tips": "Nerve should be mobile in canal after release",
+          "warnings": "Excessive neurolysis may cause scarring"
+        },
+        {
+          "id": 106,
+          "step_number": 6,
+          "title": "Closure",
+          "description": "Release tourniquet, achieve hemostasis. Close skin only (palmar fascia left open). Apply soft dressing allowing finger motion.",
+          "tips": "Early finger motion reduces stiffness",
+          "warnings": "Avoid tight dressing that restricts circulation"
+        }
+      ],
+      "created_at": "2026-02-02T21:15:39.819Z",
+      "updated_at": "2026-02-02T21:15:39.819Z"
+    },
+    {
+      "id": 17,
+      "name": "Chiari Malformation Decompression",
+      "category": "Congenital/Pediatric",
+      "description": "Posterior fossa decompression for Chiari I malformation with or without duraplasty.",
+      "indications": "Symptomatic Chiari I (headaches, syrinx, myelopathy), progressive syringomyelia, sleep apnea related to Chiari",
+      "contraindications": "Asymptomatic Chiari without syrinx, hydrocephalus (treat first), craniocervical instability (address first)",
+      "steps": [
+        {
+          "id": 107,
+          "step_number": 1,
+          "title": "Preoperative Evaluation",
+          "description": "Review MRI for tonsillar ectopia, syrinx, CSF flow study. Rule out hydrocephalus and craniocervical instability. Consider sleep study.",
+          "tips": "CSF flow study helps predict need for duraplasty",
+          "warnings": "Treat hydrocephalus before Chiari decompression"
+        },
+        {
+          "id": 108,
+          "step_number": 2,
+          "title": "Patient Positioning",
+          "description": "Prone or sitting position with head in Mayfield. Flex neck to open posterior fossa. Prep from occiput to upper thoracic spine.",
+          "tips": "Sitting position reduces blood loss but has air embolism risk",
+          "warnings": "Avoid excessive neck flexion - can cause cord compression"
+        },
+        {
+          "id": 109,
+          "step_number": 3,
+          "title": "Exposure",
+          "description": "Midline incision from inion to C2/C3. Subperiosteal dissection of occiput and C1 posterior arch. Expose to foramen magnum edges.",
+          "tips": "Stay in midline to minimize blood loss",
+          "warnings": "Preserve C2 muscle attachments if not doing C2 laminectomy"
+        },
+        {
+          "id": 110,
+          "step_number": 4,
+          "title": "Bone Decompression",
+          "description": "Perform suboccipital craniectomy (3x3 cm minimum). Remove C1 posterior arch. Remove any constrictive fibrous band.",
+          "tips": "Extend laterally to sigmoid sinus if needed",
+          "warnings": "Avoid venous sinus injury at torcula"
+        },
+        {
+          "id": 111,
+          "step_number": 5,
+          "title": "Dural Assessment",
+          "description": "Assess dural tension and cerebellar tonsil position. If adequate CSF flow and minimal tonsil compression, may stop here (bone-only decompression).",
+          "tips": "Ultrasound can assess CSF flow before dural opening",
+          "warnings": "Some surgeons always perform duraplasty"
+        },
+        {
+          "id": 112,
+          "step_number": 6,
+          "title": "Duraplasty",
+          "description": "If proceeding with duraplasty: open dura in Y-shape. Shrink cerebellar tonsils with bipolar. Expand dura with pericranium, allograft, or synthetic patch.",
+          "tips": "Watertight closure reduces CSF leak",
+          "warnings": "Avoid injury to PICA along tonsil surface"
+        },
+        {
+          "id": 113,
+          "step_number": 7,
+          "title": "Closure",
+          "description": "Achieve hemostasis. Watertight dural closure. Close muscle and fascia in layers. Consider drain if significant dead space.",
+          "tips": "Avoid Valsalva maneuvers postoperatively",
+          "warnings": "CSF leak/pseudomeningocele most common complication"
+        }
+      ],
+      "created_at": "2026-02-02T21:15:56.504Z",
+      "updated_at": "2026-02-02T21:15:56.504Z"
+    },
+    {
+      "id": 18,
+      "name": "Carotid Endarterectomy",
+      "category": "Vascular Surgery",
+      "description": "Surgical removal of atherosclerotic plaque from the carotid artery to prevent stroke.",
+      "indications": "Symptomatic carotid stenosis >50%, asymptomatic stenosis >70% in good surgical candidate, recurrent TIAs despite medical therapy",
+      "contraindications": "Total occlusion, severe comorbidities, extensive distal disease, radiation-induced stenosis (relative)",
+      "steps": [
+        {
+          "id": 114,
+          "step_number": 1,
+          "title": "Preoperative Assessment",
+          "description": "Review imaging (CTA, MRA, or DSA) for stenosis severity, plaque morphology, and distal extent. Assess cardiac risk.",
+          "tips": "Identify high bifurcation or distal disease extent",
+          "warnings": "Recent large stroke increases perioperative risk"
+        },
+        {
+          "id": 115,
+          "step_number": 2,
+          "title": "Patient Positioning",
+          "description": "Supine with head turned away from operative side. Roll under shoulders. Mark incision along anterior SCM border.",
+          "tips": "Slight neck extension improves exposure",
+          "warnings": "Avoid excessive rotation in patients with contralateral stenosis"
+        },
+        {
+          "id": 116,
+          "step_number": 3,
+          "title": "Exposure",
+          "description": "Incision along anterior SCM. Divide platysma. Identify and protect facial vein, hypoglossal nerve, vagus nerve.",
+          "tips": "Facial vein marks carotid bifurcation level",
+          "warnings": "Hypoglossal nerve crosses above bifurcation - protect"
+        },
+        {
+          "id": 117,
+          "step_number": 4,
+          "title": "Carotid Dissection",
+          "description": "Expose common carotid, internal carotid beyond plaque, and external carotid. Minimal manipulation of bifurcation until ready to clamp.",
+          "tips": "Heparinize before clamping (80-100 U/kg)",
+          "warnings": "Avoid dislodging plaque fragments during dissection"
+        },
+        {
+          "id": 118,
+          "step_number": 5,
+          "title": "Shunt Decision",
+          "description": "Clamp carotid arteries. Assess need for shunt based on stump pressure, EEG changes, or routine use policy.",
+          "tips": "Stump pressure <40-50 mmHg suggests shunt need",
+          "warnings": "Shunt may cause intimal injury or air embolism"
+        },
+        {
+          "id": 119,
+          "step_number": 6,
+          "title": "Arteriotomy & Plaque Removal",
+          "description": "Longitudinal arteriotomy in common carotid extending into ICA. Develop endarterectomy plane. Remove plaque en bloc. Tack distal intimal edge.",
+          "tips": "Clean endpoint in ICA is critical",
+          "warnings": "Residual intimal flap causes postop occlusion"
+        },
+        {
+          "id": 120,
+          "step_number": 7,
+          "title": "Closure",
+          "description": "Close arteriotomy primarily or with patch (vein or synthetic). Release clamps in sequence: ECA, CCA, then ICA. Confirm hemostasis.",
+          "tips": "Patch reduces restenosis risk",
+          "warnings": "Air/debris embolism during clamp release - flush technique important"
+        },
+        {
+          "id": 121,
+          "step_number": 8,
+          "title": "Postoperative Care",
+          "description": "Monitor BP closely (avoid hyper/hypotension). Neurological checks q1h. Watch for neck hematoma.",
+          "tips": "Hyperperfusion syndrome risk if severe preop stenosis",
+          "warnings": "Expanding hematoma requires immediate re-exploration"
+        }
+      ],
+      "created_at": "2026-02-02T21:16:14.160Z",
+      "updated_at": "2026-02-02T21:16:14.160Z"
+    },
+    {
+      "id": 19,
+      "name": "Epilepsy Surgery - Temporal Lobectomy",
+      "category": "Functional Neurosurgery",
+      "description": "Anterior temporal lobectomy for medically refractory mesial temporal lobe epilepsy.",
+      "indications": "Medically refractory temporal lobe epilepsy, concordant presurgical evaluation (MRI, EEG, PET), mesial temporal sclerosis",
+      "contraindications": "Bilateral mesial temporal onset, memory impairment contralateral to planned resection, psychogenic nonepileptic events",
+      "steps": [
+        {
+          "id": 122,
+          "step_number": 1,
+          "title": "Presurgical Evaluation",
+          "description": "Confirm seizure focus with video-EEG, MRI (hippocampal sclerosis), PET, neuropsych testing, Wada test if needed.",
+          "tips": "Concordance of all studies predicts best outcome",
+          "warnings": "Discordant results may require invasive EEG monitoring"
+        },
+        {
+          "id": 123,
+          "step_number": 2,
+          "title": "Craniotomy",
+          "description": "Pterional or temporal craniotomy. Expose anterior and middle temporal gyri. Identify Sylvian fissure and temporal tip.",
+          "tips": "Bone flap should extend to middle fossa floor",
+          "warnings": "Protect vein of Labbé posteriorly"
+        },
+        {
+          "id": 124,
+          "step_number": 3,
+          "title": "Lateral Neocortical Resection",
+          "description": "Resect 3.5-4.5 cm of lateral temporal neocortex from temporal tip (dominant side 3.5 cm, non-dominant 4.5 cm).",
+          "tips": "Use ultrasonic aspirator for cortical resection",
+          "warnings": "Exceeding resection limits on dominant side risks language deficit"
+        },
+        {
+          "id": 125,
+          "step_number": 4,
+          "title": "Access Temporal Horn",
+          "description": "Enter temporal horn of lateral ventricle through white matter dissection. Identify choroid plexus and hippocampus.",
+          "tips": "Temporal horn entry confirms correct depth",
+          "warnings": "Avoid injury to optic radiations (Meyer loop)"
+        },
+        {
+          "id": 126,
+          "step_number": 5,
+          "title": "Amygdalohippocampectomy",
+          "description": "Resect amygdala, hippocampus, and parahippocampal gyrus. Subpial dissection along mesial structures. Preserve PCA and its branches.",
+          "tips": "Dissect along arachnoid plane over PCA",
+          "warnings": "PCA injury causes hemianopia or thalamic infarct"
+        },
+        {
+          "id": 127,
+          "step_number": 6,
+          "title": "Closure",
+          "description": "Hemostasis in resection cavity. Replace bone flap. Close in layers. Postoperative MRI to confirm extent of resection.",
+          "tips": "Leave Surgicel in cavity for hemostasis",
+          "warnings": "Postoperative hematoma requires urgent re-exploration"
+        }
+      ],
+      "created_at": "2026-02-03T14:27:11.203Z",
+      "updated_at": "2026-02-03T14:27:11.204Z"
+    },
+    {
+      "id": 20,
+      "name": "Microvascular Decompression (MVD)",
+      "category": "Functional Neurosurgery",
+      "description": "Posterior fossa surgery to relieve neurovascular compression causing trigeminal neuralgia or hemifacial spasm.",
+      "indications": "Trigeminal neuralgia refractory to medication, hemifacial spasm, glossopharyngeal neuralgia, MRI showing vascular compression",
+      "contraindications": "Multiple sclerosis-related TN (relative), elderly with significant comorbidities, no vascular contact on MRI",
+      "steps": [
+        {
+          "id": 128,
+          "step_number": 1,
+          "title": "Preoperative Imaging",
+          "description": "High-resolution MRI (CISS/FIESTA) to identify offending vessel and its relationship to nerve root entry zone.",
+          "tips": "SCA most common for TN, AICA for hemifacial spasm",
+          "warnings": "Absence of vascular contact on MRI reduces success rate"
+        },
+        {
+          "id": 129,
+          "step_number": 2,
+          "title": "Patient Positioning",
+          "description": "Lateral decubitus or park bench position with affected side up. Head in Mayfield, flexed and rotated away. Monitor facial nerve, ABR.",
+          "tips": "Shoulder taping improves access",
+          "warnings": "Avoid air embolism - seal bone edges with wax"
+        },
+        {
+          "id": 130,
+          "step_number": 3,
+          "title": "Retrosigmoid Craniotomy",
+          "description": "Small (2.5-3 cm) craniotomy behind sigmoid sinus junction with transverse sinus. Expose dura over cerebellopontine angle.",
+          "tips": "Craniotomy should straddle transverse-sigmoid junction",
+          "warnings": "Injury to sigmoid sinus or emissary veins causes bleeding"
+        },
+        {
+          "id": 131,
+          "step_number": 4,
+          "title": "Dural Opening & CSF Drainage",
+          "description": "Open dura. Release CSF from cerebellomedullary cistern for brain relaxation. Minimal cerebellar retraction.",
+          "tips": "Patience with CSF drainage avoids retraction injury",
+          "warnings": "Aggressive retraction causes hearing loss"
+        },
+        {
+          "id": 132,
+          "step_number": 5,
+          "title": "Nerve Identification",
+          "description": "For TN: identify CN V at root entry zone in pons. For hemifacial spasm: identify CN VII at brainstem. Locate offending vessel.",
+          "tips": "Follow superior petrosal vein to trigeminal nerve",
+          "warnings": "Preserve all cranial nerves and perforating vessels"
+        },
+        {
+          "id": 133,
+          "step_number": 6,
+          "title": "Decompression",
+          "description": "Mobilize offending artery away from nerve. Place Teflon felt pledget between vessel and nerve root entry zone. Ensure no new compression.",
+          "tips": "Small pieces of Teflon, do not wrap nerve",
+          "warnings": "Excessive packing compresses nerve and worsens symptoms"
+        },
+        {
+          "id": 134,
+          "step_number": 7,
+          "title": "Closure",
+          "description": "Hemostasis. Close dura watertight - consider dural sealant. Replace bone flap or cranioplasty. Close in layers.",
+          "tips": "Bone wax all mastoid air cells to prevent CSF leak",
+          "warnings": "CSF rhinorrhea can occur through opened air cells"
+        }
+      ],
+      "created_at": "2026-02-03T14:27:28.771Z",
+      "updated_at": "2026-02-03T14:27:28.771Z"
+    },
+    {
+      "id": 21,
+      "name": "External Ventricular Drain (EVD) Placement",
+      "category": "CSF Disorders",
+      "description": "Bedside or OR placement of catheter into lateral ventricle for CSF drainage and ICP monitoring.",
+      "indications": "Acute hydrocephalus, ICP monitoring in TBI, intraventricular hemorrhage, CNS infection requiring intrathecal antibiotics",
+      "contraindications": "Coagulopathy (correct first), scalp infection at insertion site, slit ventricles (relative)",
+      "steps": [
+        {
+          "id": 135,
+          "step_number": 1,
+          "title": "Preparation",
+          "description": "Gather EVD kit, sterile drapes, drill. Confirm correct side. Shave and prep insertion area. Administer prophylactic antibiotics.",
+          "tips": "Tunneled EVDs have lower infection rates",
+          "warnings": "Strict aseptic technique - EVD infection rate 5-15%"
+        },
+        {
+          "id": 136,
+          "step_number": 2,
+          "title": "Landmarks",
+          "description": "Mark Kocher point: 11 cm posterior to nasion (1 cm anterior to coronal suture), 3 cm lateral to midline (mid-pupillary line).",
+          "tips": "Non-dominant hemisphere preferred when possible",
+          "warnings": "Too lateral risks motor cortex, too medial risks sagittal sinus"
+        },
+        {
+          "id": 137,
+          "step_number": 3,
+          "title": "Incision & Burr Hole",
+          "description": "Make 3 cm incision. Create twist drill hole perpendicular to skull. Open dura with stylet or scalpel tip.",
+          "tips": "Plan tunnel exit site 3-5 cm from burr hole",
+          "warnings": "Ensure drill bit does not plunge"
+        },
+        {
+          "id": 138,
+          "step_number": 4,
+          "title": "Catheter Insertion",
+          "description": "Insert catheter perpendicular to skull surface, aiming at medial canthus of ipsilateral eye in coronal plane and tragus in sagittal plane. Advance 5-7 cm.",
+          "tips": "CSF flow usually obtained at 5-6 cm depth",
+          "warnings": "Multiple passes increase hemorrhage and infection risk"
+        },
+        {
+          "id": 139,
+          "step_number": 5,
+          "title": "Confirm Placement",
+          "description": "Confirm free-flowing CSF. Measure opening pressure. Collect CSF sample for lab analysis if indicated.",
+          "tips": "Normal ICP: 5-15 mmHg",
+          "warnings": "Bloody CSF may indicate parenchymal pass"
+        },
+        {
+          "id": 140,
+          "step_number": 6,
+          "title": "Tunneling & Securing",
+          "description": "Tunnel catheter subcutaneously to exit site 3-5 cm away. Secure with suture and dressing. Connect to drainage system.",
+          "tips": "Longer tunnel reduces infection risk",
+          "warnings": "Avoid kinking catheter during tunneling"
+        },
+        {
+          "id": 141,
+          "step_number": 7,
+          "title": "Set Drainage Level",
+          "description": "Set drainage level as ordered (typically 10-20 cm H2O above tragus). Verify CSF drainage. Obtain CT to confirm position.",
+          "tips": "Document drainage level and amount hourly",
+          "warnings": "Over-drainage can cause subdural hematoma or upward herniation"
+        }
+      ],
+      "created_at": "2026-02-03T14:27:46.742Z",
+      "updated_at": "2026-02-03T14:27:46.742Z"
+    },
+    {
+      "id": 22,
+      "name": "Posterior Cervical Laminectomy and Fusion",
+      "category": "Spine Surgery",
+      "description": "Posterior approach cervical decompression with lateral mass or pedicle screw fixation for multilevel stenosis.",
+      "indications": "Multilevel cervical stenosis with myelopathy, cervical kyphosis with posterior compression, ossification of PLL, failed anterior approach",
+      "contraindications": "Primarily anterior compression (relative), severe fixed kyphosis, active infection",
+      "steps": [
+        {
+          "id": 142,
+          "step_number": 1,
+          "title": "Patient Positioning",
+          "description": "Prone with head in Mayfield. Maintain neutral cervical alignment. Slight flexion to open laminar spaces. Neuromonitoring: SSEPs, MEPs.",
+          "tips": "Reverse Trendelenburg reduces venous pressure",
+          "warnings": "Avoid hyperflexion in myelopathic patients - risk of cord injury"
+        },
+        {
+          "id": 143,
+          "step_number": 2,
+          "title": "Exposure",
+          "description": "Midline incision from occiput to upper thoracic spine as needed. Subperiosteal dissection to expose laminae, facets, and lateral masses.",
+          "tips": "Electrocautery on bone reduces bleeding from periosteum",
+          "warnings": "Do not violate facet capsules at levels not being fused"
+        },
+        {
+          "id": 144,
+          "step_number": 3,
+          "title": "Lateral Mass Screw Placement",
+          "description": "Identify lateral mass center. Use Magerl or An technique for screw trajectory. Drill, tap, and insert screws bilaterally.",
+          "tips": "Magerl: 25° lateral, 45° cephalad. An: 30° lateral, 15° cephalad",
+          "warnings": "Medial or inferior trajectory risks vertebral artery or nerve root"
+        },
+        {
+          "id": 145,
+          "step_number": 4,
+          "title": "Laminectomy",
+          "description": "Remove laminae from C3-C6/C7 as needed using Kerrison rongeurs and high-speed drill. Preserve C2 and C7 laminae if possible.",
+          "tips": "Trough technique: thin lamina bilaterally, then lift off",
+          "warnings": "Protect cord during lamina removal - use footplate attachment"
+        },
+        {
+          "id": 146,
+          "step_number": 5,
+          "title": "Foraminotomy",
+          "description": "Perform bilateral foraminotomies if foraminal stenosis present. Remove medial facet and uncovertebral osteophytes compressing nerve roots.",
+          "tips": "Remove no more than 50% of facet to maintain stability",
+          "warnings": "Venous plexus bleeding in foramen - use hemostatic agents"
+        },
+        {
+          "id": 147,
+          "step_number": 6,
+          "title": "Rod Placement",
+          "description": "Contour rods to match cervical lordosis. Insert and secure rods bilaterally. Apply compression or distraction as needed.",
+          "tips": "Restore or maintain cervical lordosis",
+          "warnings": "Loss of lordosis leads to post-laminectomy kyphosis"
+        },
+        {
+          "id": 148,
+          "step_number": 7,
+          "title": "Bone Grafting & Closure",
+          "description": "Decorticate lateral masses. Apply bone graft (local autograft + allograft). Close fascia, subcutaneous tissue, and skin over drain.",
+          "tips": "Meticulous fascial closure prevents wound complications",
+          "warnings": "Posterior cervical wound infections can be devastating"
+        }
+      ],
+      "created_at": "2026-02-03T14:28:04.945Z",
+      "updated_at": "2026-02-03T14:28:04.945Z"
+    },
+    {
+      "id": 23,
+      "name": "Awake Craniotomy with Brain Mapping",
+      "category": "Tumor Surgery",
+      "description": "Craniotomy performed with patient awake for real-time cortical and subcortical mapping to maximize tumor resection while preserving neurological function.",
+      "indications": "Tumors in or near eloquent cortex (motor, speech, language), low-grade gliomas in functional areas, recurrent tumors near eloquent regions",
+      "contraindications": "Uncooperative patient, severe anxiety, language barrier, obesity with airway concerns, posterior fossa tumors",
+      "steps": [
+        {
+          "id": 149,
+          "step_number": 1,
+          "title": "Preoperative Planning",
+          "description": "Functional MRI and DTI tractography to map eloquent cortex and white matter tracts. Neuropsych baseline. Meet patient to establish rapport and rehearse tasks.",
+          "tips": "Patient education and trust are critical for success",
+          "warnings": "Screen for anxiety disorders - may need asleep-awake-asleep technique"
+        },
+        {
+          "id": 150,
+          "step_number": 2,
+          "title": "Anesthesia - Asleep Phase",
+          "description": "Scalp block with local anesthetic. Sedation with propofol/remifentanil for craniotomy phase (if asleep-awake-asleep). LMA or conscious sedation.",
+          "tips": "Generous scalp block reduces pain during awake phase",
+          "warnings": "Avoid respiratory depression during transition to awake"
+        },
+        {
+          "id": 151,
+          "step_number": 3,
+          "title": "Craniotomy",
+          "description": "Perform craniotomy to expose tumor and surrounding eloquent cortex. Ensure adequate exposure for mapping beyond tumor margins.",
+          "tips": "Larger exposure allows more mapping points",
+          "warnings": "Minimize brain manipulation before patient is awake"
+        },
+        {
+          "id": 152,
+          "step_number": 4,
+          "title": "Wake-Up Phase",
+          "description": "Discontinue sedation. Allow patient to fully awaken. Confirm orientation and ability to perform tasks (counting, naming, motor tasks).",
+          "tips": "Have familiar face (speech therapist) at bedside for reassurance",
+          "warnings": "Seizures during mapping - irrigate with cold saline, no retraction"
+        },
+        {
+          "id": 153,
+          "step_number": 5,
+          "title": "Cortical Mapping",
+          "description": "Apply bipolar stimulator (Ojemann) to cortical surface. Identify motor cortex (involuntary movement) and language areas (speech arrest, anomia, paraphasia).",
+          "tips": "Start at 2mA, increase by 1mA. Mark positive sites with numbered tickets",
+          "warnings": "If seizure occurs: cold irrigation, raise stimulation threshold"
+        },
+        {
+          "id": 154,
+          "step_number": 6,
+          "title": "Tumor Resection",
+          "description": "Resect tumor while continuously testing patient. Maintain 1 cm margin from positive mapping sites. Use subcortical stimulation near white matter tracts.",
+          "tips": "Subcortical stimulation at 3-5mA indicates proximity to tract",
+          "warnings": "New deficit during resection - stop, irrigate, reassess"
+        },
+        {
+          "id": 155,
+          "step_number": 7,
+          "title": "Closure",
+          "description": "Hemostasis. May re-sedate patient for closure phase. Close dura, replace bone, close in layers.",
+          "tips": "Final neurological exam before closing",
+          "warnings": "Document all mapping sites and functional outcomes"
+        }
+      ],
+      "created_at": "2026-02-03T14:28:23.510Z",
+      "updated_at": "2026-02-03T14:28:23.510Z"
+    },
+    {
+      "id": 24,
+      "name": "Spinal Epidural Abscess Drainage",
+      "category": "Spine Surgery",
+      "description": "Emergency surgical decompression and drainage of spinal epidural abscess to prevent or reverse neurological deficit.",
+      "indications": "Neurological deficit, progressive weakness, failure of antibiotic therapy, large abscess with cord compression",
+      "contraindications": "Pan-spinal involvement (medical management), complete paralysis >48-72 hours (relative), prohibitive surgical risk",
+      "steps": [
+        {
+          "id": 156,
+          "step_number": 1,
+          "title": "Preoperative Assessment",
+          "description": "MRI with gadolinium to delineate abscess extent. Blood cultures, inflammatory markers (CRP, ESR, WBC). Identify organism if possible.",
+          "tips": "Most common organism: Staphylococcus aureus",
+          "warnings": "This is a surgical emergency - do not delay for extensive workup"
+        },
+        {
+          "id": 157,
+          "step_number": 2,
+          "title": "Patient Positioning",
+          "description": "Prone on Jackson table. Ensure neuromonitoring if available. Prep widely to cover entire abscess extent.",
+          "tips": "Mark levels with fluoroscopy before incision",
+          "warnings": "Septic patient may be hemodynamically unstable"
+        },
+        {
+          "id": 158,
+          "step_number": 3,
+          "title": "Exposure",
+          "description": "Midline incision over affected levels. Subperiosteal dissection to expose laminae. Extend one level above and below abscess.",
+          "tips": "Culture any purulent material encountered during approach",
+          "warnings": "Avoid contaminating unaffected tissue planes"
+        },
+        {
+          "id": 159,
+          "step_number": 4,
+          "title": "Laminectomy",
+          "description": "Perform laminectomy over abscess extent. Open ligamentum flavum carefully. Purulent material will be encountered in epidural space.",
+          "tips": "Wide laminectomy ensures complete drainage",
+          "warnings": "Inflamed dura is fragile - avoid durotomy"
+        },
+        {
+          "id": 160,
+          "step_number": 5,
+          "title": "Abscess Drainage",
+          "description": "Evacuate purulent material with suction. Send cultures (aerobic, anaerobic, TB, fungal). Irrigate copiously with saline.",
+          "tips": "Explore laterally into foramina for loculated collections",
+          "warnings": "Do not irrigate under pressure - may spread infection"
+        },
+        {
+          "id": 161,
+          "step_number": 6,
+          "title": "Inspection & Debridement",
+          "description": "Inspect dura for granulation tissue. If discitis present, debride disc space. Assess for vertebral body osteomyelitis.",
+          "tips": "Biopsy bone if osteomyelitis suspected",
+          "warnings": "Extensive bone debridement may require subsequent fusion"
+        },
+        {
+          "id": 162,
+          "step_number": 7,
+          "title": "Closure & Drain",
+          "description": "Place drain in epidural space. Close fascia and skin. Continue IV antibiotics for 6-8 weeks. Monitor CRP for treatment response.",
+          "tips": "Loose fascial closure if significant dead space",
+          "warnings": "Recurrence may require re-exploration"
+        }
+      ],
+      "created_at": "2026-02-03T14:28:39.373Z",
+      "updated_at": "2026-02-03T14:28:39.373Z"
+    },
+    {
+      "id": 25,
+      "name": "Endoscopic Endonasal Skull Base Surgery",
+      "category": "Skull Base Surgery",
+      "description": "Extended endoscopic endonasal approach for midline skull base lesions beyond the sella.",
+      "indications": "Craniopharyngioma, tuberculum sellae meningioma, clival chordoma, anterior skull base CSF leak, esthesioneuroblastoma",
+      "contraindications": "Significant lateral extension beyond carotid arteries, vascular encasement, nasal/sinus infection",
+      "steps": [
+        {
+          "id": 163,
+          "step_number": 1,
+          "title": "Preoperative Planning",
+          "description": "Detailed CT/MRI review. CT angiography for carotid artery course. Plan surgical corridor: transtuberculum, transplanum, transclival, or transcribriform.",
+          "tips": "Thin-cut CT for bony anatomy, MRI for soft tissue relationships",
+          "warnings": "Identify carotid artery dehiscence or aberrant course"
+        },
+        {
+          "id": 164,
+          "step_number": 2,
+          "title": "Nasal Phase",
+          "description": "Bilateral nasal approach. Harvest nasoseptal flap (Hadad-Bassagasteguy) for reconstruction. Wide bilateral sphenoidotomy.",
+          "tips": "Preserve septal branch of sphenopalatine artery for flap viability",
+          "warnings": "Flap harvest before tumor removal - cannot go back"
+        },
+        {
+          "id": 165,
+          "step_number": 3,
+          "title": "Bony Opening",
+          "description": "Remove bone over surgical corridor using drill and Kerrison rongeurs. Transplanum, tuberculum, or clivus based on pathology. Expose dura widely.",
+          "tips": "Egg-shell bone then remove with curettes for control",
+          "warnings": "Identify and preserve optic canals and carotid prominences"
+        },
+        {
+          "id": 166,
+          "step_number": 4,
+          "title": "Dural Opening",
+          "description": "Open dura sharply. Identify arachnoid plane. CSF will be encountered - maintain clear field with two-surgeon technique.",
+          "tips": "Bimanual technique with surgeon and assistant essential",
+          "warnings": "Vascular injury risk during dural opening near carotids"
+        },
+        {
+          "id": 167,
+          "step_number": 5,
+          "title": "Tumor Resection",
+          "description": "Extracapsular dissection when possible. Debulk internally for large tumors. Careful dissection from optic nerves, pituitary stalk, hypothalamus.",
+          "tips": "Angled endoscopes (30°, 45°) provide visualization around corners",
+          "warnings": "Hypothalamic injury causes devastating endocrine/behavioral deficits"
+        },
+        {
+          "id": 168,
+          "step_number": 6,
+          "title": "Skull Base Reconstruction",
+          "description": "Multilayer closure: inlay fascial graft, onlay nasoseptal flap, tissue sealant. Buttress with Foley balloon in sphenoid.",
+          "tips": "Nasoseptal flap is workhorse for large defects",
+          "warnings": "Poor reconstruction leads to CSF leak and meningitis"
+        },
+        {
+          "id": 169,
+          "step_number": 7,
+          "title": "Postoperative Care",
+          "description": "Bed rest with HOB elevated. Lumbar drain for 3-5 days if high-flow leak. Nasal precautions. Endocrine monitoring.",
+          "tips": "Avoid straining, nose blowing, sneezing with mouth closed",
+          "warnings": "Delayed CSF leak can occur 1-2 weeks postoperatively"
+        }
+      ],
+      "created_at": "2026-02-03T14:28:58.097Z",
+      "updated_at": "2026-02-03T14:28:58.097Z"
+    },
+    {
+      "id": 26,
+      "name": "Ulnar Nerve Transposition",
+      "category": "Peripheral Nerve Surgery",
+      "description": "Surgical decompression and anterior transposition of the ulnar nerve at the elbow for cubital tunnel syndrome.",
+      "indications": "Failed conservative treatment, progressive weakness/atrophy of intrinsic hand muscles, severe EMG findings, recurrent subluxation",
+      "contraindications": "Active infection, severe medical comorbidities, mild symptoms responding to conservative care",
+      "steps": [
+        {
+          "id": 170,
+          "step_number": 1,
+          "title": "Patient Positioning",
+          "description": "Supine with arm on arm board, elbow flexed 90°. Apply tourniquet. Mark course of ulnar nerve over medial epicondyle.",
+          "tips": "Map nerve with ultrasound preoperatively if revision case",
+          "warnings": "Protect medial antebrachial cutaneous nerve"
+        },
+        {
+          "id": 171,
+          "step_number": 2,
+          "title": "Incision",
+          "description": "10-12 cm curvilinear incision centered on medial epicondyle, curving anteriorly proximal and distal.",
+          "tips": "Stay posterior to medial epicondyle then curve anterior",
+          "warnings": "Avoid crossing elbow crease perpendicularly - scar contracture"
+        },
+        {
+          "id": 172,
+          "step_number": 3,
+          "title": "Nerve Identification",
+          "description": "Identify ulnar nerve proximal to cubital tunnel in intermuscular septum. Trace distally through cubital tunnel and into FCU fascia.",
+          "tips": "Identify nerve proximally where anatomy is normal",
+          "warnings": "Nerve may be subluxed or adherent to scar in revision cases"
+        },
+        {
+          "id": 173,
+          "step_number": 4,
+          "title": "Decompression",
+          "description": "Release all compression points: arcade of Struthers, medial intermuscular septum, Osborne ligament (cubital tunnel roof), FCU fascia.",
+          "tips": "Complete release extends 8-10 cm proximal and distal to epicondyle",
+          "warnings": "Incomplete release is common cause of failure"
+        },
+        {
+          "id": 174,
+          "step_number": 5,
+          "title": "Transposition",
+          "description": "Mobilize nerve with its vascular pedicle. Excise medial intermuscular septum. Create subcutaneous or submuscular pocket. Transpose nerve anteriorly.",
+          "tips": "Submuscular gives most protection but requires muscle healing",
+          "warnings": "Avoid kinking at proximal or distal ends of transposition"
+        },
+        {
+          "id": 175,
+          "step_number": 6,
+          "title": "Closure",
+          "description": "Create fascial sling to prevent nerve from returning posteriorly. Close in layers. Soft dressing with elbow at 90°. Begin gentle ROM in 1-2 weeks.",
+          "tips": "Sling from flexor-pronator fascia prevents re-subluxation",
+          "warnings": "Prolonged immobilization causes elbow stiffness"
+        }
+      ],
+      "created_at": "2026-02-03T14:29:13.804Z",
+      "updated_at": "2026-02-03T14:29:13.804Z"
+    },
+    {
+      "id": 27,
+      "name": "Stereotactic Brain Biopsy",
+      "category": "Tumor Surgery",
+      "description": "Minimally invasive stereotactic or frameless neuronavigation-guided biopsy of intracranial lesion for histological diagnosis.",
+      "indications": "Deep-seated lesion not amenable to resection, multifocal lesions, diagnostic uncertainty, CNS lymphoma suspected, eloquent area lesion",
+      "contraindications": "Coagulopathy, vascular lesion (AVM, aneurysm), lesion in highly vascular area, accessible lesion better treated with resection",
+      "steps": [
+        {
+          "id": 176,
+          "step_number": 1,
+          "title": "Target Planning",
+          "description": "Select biopsy target on MRI. Choose enhancing portion avoiding necrotic center. Plan trajectory avoiding vessels, ventricles, and eloquent cortex.",
+          "tips": "Target enhancing rim for highest diagnostic yield",
+          "warnings": "Avoid choroid plexus, ependymal surfaces, and major vessels"
+        },
+        {
+          "id": 177,
+          "step_number": 2,
+          "title": "Frame Placement or Registration",
+          "description": "Apply stereotactic frame and obtain CT for co-registration, OR use frameless neuronavigation with fiducial registration.",
+          "tips": "Frame-based is gold standard for accuracy (<2mm error)",
+          "warnings": "Verify registration accuracy before proceeding"
+        },
+        {
+          "id": 178,
+          "step_number": 3,
+          "title": "Incision & Burr Hole",
+          "description": "Small incision at planned entry point. Create burr hole. Open dura and coagulate pia.",
+          "tips": "Twist drill sufficient for most biopsies",
+          "warnings": "Hemostasis at cortical entry point prevents tract hemorrhage"
+        },
+        {
+          "id": 179,
+          "step_number": 4,
+          "title": "Biopsy Acquisition",
+          "description": "Advance biopsy needle to target depth using stereotactic guidance. Obtain multiple samples from different areas of lesion.",
+          "tips": "4-6 samples from different sites increases diagnostic yield",
+          "warnings": "Minimize number of trajectories to reduce hemorrhage risk"
+        },
+        {
+          "id": 180,
+          "step_number": 5,
+          "title": "Frozen Section",
+          "description": "Send specimen for intraoperative frozen section to confirm diagnostic tissue obtained. Pathologist confirms adequate tissue.",
+          "tips": "Continue sampling if frozen shows only necrosis/gliosis",
+          "warnings": "Frozen section may not give final diagnosis - wait for permanent"
+        },
+        {
+          "id": 181,
+          "step_number": 6,
+          "title": "Closure",
+          "description": "Remove needle. Achieve hemostasis with irrigation and Surgicel. Bone wax burr hole. Close skin. CT scan postoperatively.",
+          "tips": "Observe in ICU for 24 hours",
+          "warnings": "Hemorrhage rate 1-5% - postop CT mandatory"
+        }
+      ],
+      "created_at": "2026-02-03T14:29:28.825Z",
+      "updated_at": "2026-02-03T14:29:28.825Z"
+    }
+  ],
+  "nextProcedureId": 28,
+  "nextStepId": 182
+}
