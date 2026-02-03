@@ -1773,5 +1773,9 @@
     }
   ],
   "nextProcedureId": 28,
-  "nextStepId": 182
+  "nextStepId": 182,
+  "users": [],
+  "nextUserId": 1,
+  "caseLogs": [],
+  "nextCaseLogId": 1
 }

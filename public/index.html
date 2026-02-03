@@ -2,107 +2,203 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Neurosurgery Learning App</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="/icons/icon-192.svg">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="app-container">
     <!-- Header -->
     <header class="header">
-      <h1>🧠 Neurosurgery Learning</h1>
-      <p>Your personal procedure reference guide</p>
+      <div class="header-top">
+        <h1>Neurosurgery Learning</h1>
+        <div class="auth-area" id="authArea">
+          <button class="btn btn-outline" onclick="openAuthModal('login')">Login</button>
+          <button class="btn btn-outline" onclick="openAuthModal('register')">Register</button>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <nav class="nav-tabs" id="navTabs">
+        <button class="nav-tab active" data-view="procedures" onclick="switchView('procedures')">Procedures</button>
+        <button class="nav-tab" data-view="caselogs" onclick="switchView('caselogs')">Case Log</button>
+        <button class="nav-tab" data-view="atlas" onclick="switchView('atlas')">Anatomy Atlas</button>
+      </nav>
     </header>
 
-    <!-- Search & Filter Bar -->
-    <div class="search-bar">
-      <input type="text" id="searchInput" placeholder="Search procedures..." />
-      <select id="categoryFilter">
-        <option value="">All Categories</option>
-      </select>
-      <button class="btn btn-primary" onclick="openAddModal()">+ Add Procedure</button>
-    </div>
+    <!-- ==================== PROCEDURES VIEW ==================== -->
+    <div class="view active" id="proceduresView">
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search procedures..." />
+        <select id="categoryFilter">
+          <option value="">All Categories</option>
+        </select>
+        <button class="btn btn-primary auth-required hidden" id="addProcBtn" onclick="openAddModal()">+ Add Procedure</button>
+      </div>
 
-    <!-- Main Content -->
-    <main class="main-content">
-      <!-- Procedures List -->
       <section class="procedures-list" id="proceduresList">
         <p class="loading">Loading procedures...</p>
       </section>
 
-      <!-- Step Viewer (hidden by default) -->
+      <!-- Step Viewer -->
       <section class="step-viewer hidden" id="stepViewer">
         <div class="step-viewer-header">
-          <button class="btn btn-secondary" onclick="closeStepViewer()">← Back to List</button>
+          <button class="btn btn-secondary" onclick="closeStepViewer()">Back</button>
           <h2 id="procedureTitle"></h2>
+          <button class="btn btn-secondary auth-required hidden" id="logThisBtn" onclick="openCaseLogFromProcedure()">+ Log Case</button>
         </div>
-
         <div class="procedure-info" id="procedureInfo"></div>
-
         <div class="steps-container">
           <div class="steps-nav">
-            <button class="btn" id="prevStep" onclick="prevStep()">← Previous</button>
+            <button class="btn" id="prevStep" onclick="prevStep()">Previous</button>
             <span id="stepIndicator">Step 1 of 1</span>
-            <button class="btn" id="nextStep" onclick="nextStep()">Next →</button>
+            <button class="btn" id="nextStep" onclick="nextStep()">Next</button>
           </div>
-
           <div class="step-content" id="stepContent">
             <h3 id="stepTitle"></h3>
             <div id="stepDescription"></div>
+            <div id="stepMedia"></div>
             <div class="step-tips" id="stepTips"></div>
             <div class="step-warnings" id="stepWarnings"></div>
           </div>
-
           <div class="steps-progress">
             <div class="progress-bar" id="progressBar"></div>
           </div>
         </div>
       </section>
-    </main>
+    </div>
 
-    <!-- Add/Edit Modal -->
+    <!-- ==================== CASE LOGS VIEW ==================== -->
+    <div class="view" id="caselogsView">
+      <div class="caselog-header">
+        <h2>My Surgical Case Log</h2>
+        <button class="btn btn-primary" onclick="openCaseLogModal()">+ Log New Case</button>
+      </div>
+
+      <!-- Stats Dashboard -->
+      <div class="stats-dashboard" id="statsDashboard">
+        <div class="stat-card"><div class="stat-number" id="statTotal">0</div><div class="stat-label">Total Cases</div></div>
+        <div class="stat-card"><div class="stat-number" id="statHours">0</div><div class="stat-label">Total Hours</div></div>
+        <div class="stat-card"><div class="stat-number" id="statPrimary">0</div><div class="stat-label">As Primary</div></div>
+        <div class="stat-card"><div class="stat-number" id="statAssistant">0</div><div class="stat-label">As Assistant</div></div>
+      </div>
+
+      <div class="caselog-search">
+        <input type="text" id="caselogSearch" placeholder="Search case logs..." />
+      </div>
+
+      <div class="caselog-list" id="caselogList">
+        <p class="empty-state" id="caselogLoginMsg">Please login to view your case logs.</p>
+      </div>
+    </div>
+
+    <!-- ==================== ANATOMY ATLAS VIEW ==================== -->
+    <div class="view" id="atlasView">
+      <div class="atlas-layout">
+        <div class="atlas-sidebar">
+          <input type="text" id="atlasSearch" placeholder="Search anatomy..." oninput="searchAtlas()" />
+          <div id="atlasSearchResults" class="hidden"></div>
+          <div class="atlas-region-list" id="atlasRegionList">
+            <p class="loading">Loading atlas...</p>
+          </div>
+        </div>
+        <div class="atlas-detail" id="atlasDetail">
+          <div class="atlas-welcome">
+            <h2>Anatomy Atlas</h2>
+            <p>Select a region from the sidebar to explore neuroanatomy.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== AUTH MODAL ==================== -->
+    <div class="modal hidden" id="authModal">
+      <div class="modal-content modal-sm">
+        <div class="modal-header">
+          <h2 id="authModalTitle">Login</h2>
+          <button class="close-btn" onclick="closeAuthModal()">&times;</button>
+        </div>
+        <form id="authForm" onsubmit="handleAuth(event)">
+          <div class="form-group" id="displayNameGroup" style="display:none">
+            <label for="authDisplayName">Display Name</label>
+            <input type="text" id="authDisplayName" placeholder="Dr. John Smith" />
+          </div>
+          <div class="form-group">
+            <label for="authUsername">Username</label>
+            <input type="text" id="authUsername" required placeholder="username" />
+          </div>
+          <div class="form-group" id="emailGroup" style="display:none">
+            <label for="authEmail">Email</label>
+            <input type="email" id="authEmail" placeholder="you@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="authPassword">Password</label>
+            <input type="password" id="authPassword" required placeholder="min 6 characters" />
+          </div>
+          <div class="form-group" id="roleGroup" style="display:none">
+            <label for="authRole">Role</label>
+            <select id="authRole">
+              <option value="student">Medical Student</option>
+              <option value="intern">Intern</option>
+              <option value="resident" selected>Resident</option>
+              <option value="fellow">Fellow</option>
+              <option value="attending">Attending</option>
+            </select>
+          </div>
+          <div id="authError" class="form-error hidden"></div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary btn-full" id="authSubmitBtn">Login</button>
+          </div>
+          <p class="auth-switch" id="authSwitchText">
+            Don't have an account? <a href="#" onclick="toggleAuthMode(event)">Register</a>
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <!-- ==================== PROCEDURE MODAL ==================== -->
     <div class="modal hidden" id="procedureModal">
       <div class="modal-content">
         <div class="modal-header">
           <h2 id="modalTitle">Add New Procedure</h2>
           <button class="close-btn" onclick="closeModal()">&times;</button>
         </div>
-
         <form id="procedureForm" onsubmit="saveProcedure(event)">
           <input type="hidden" id="procedureId" />
-
           <div class="form-group">
             <label for="name">Procedure Name *</label>
             <input type="text" id="name" required placeholder="e.g., Craniotomy for Tumor Resection" />
           </div>
-
           <div class="form-group">
             <label for="category">Category</label>
             <input type="text" id="category" placeholder="e.g., Tumor Surgery, Vascular, Spine" list="categoryList" />
             <datalist id="categoryList"></datalist>
           </div>
-
+          <div class="form-group">
+            <label for="thumbnail_url">Thumbnail URL (optional)</label>
+            <input type="url" id="thumbnail_url" placeholder="https://example.com/image.jpg" />
+          </div>
           <div class="form-group">
             <label for="description">Description</label>
             <textarea id="description" rows="3" placeholder="Brief overview of the procedure"></textarea>
           </div>
-
           <div class="form-group">
             <label for="indications">Indications</label>
             <textarea id="indications" rows="2" placeholder="When is this procedure indicated?"></textarea>
           </div>
-
           <div class="form-group">
             <label for="contraindications">Contraindications</label>
             <textarea id="contraindications" rows="2" placeholder="When should this procedure be avoided?"></textarea>
           </div>
-
           <div class="form-group">
             <label>Procedure Steps</label>
             <div id="stepsContainer"></div>
             <button type="button" class="btn btn-secondary" onclick="addStepField()">+ Add Step</button>
           </div>
-
           <div class="form-actions">
             <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancel</button>
             <button type="submit" class="btn btn-primary">Save Procedure</button>
@@ -110,6 +206,93 @@
         </form>
       </div>
     </div>
+
+    <!-- ==================== CASE LOG MODAL ==================== -->
+    <div class="modal hidden" id="caseLogModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 id="caseLogModalTitle">Log New Case</h2>
+          <button class="close-btn" onclick="closeCaseLogModal()">&times;</button>
+        </div>
+        <form id="caseLogForm" onsubmit="saveCaseLog(event)">
+          <input type="hidden" id="caseLogId" />
+          <div class="form-row">
+            <div class="form-group">
+              <label for="clProcedureName">Procedure *</label>
+              <input type="text" id="clProcedureName" required placeholder="Procedure name" list="procedureNameList" />
+              <datalist id="procedureNameList"></datalist>
+              <input type="hidden" id="clProcedureId" />
+            </div>
+            <div class="form-group">
+              <label for="clDate">Date *</label>
+              <input type="date" id="clDate" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="clRole">Your Role</label>
+              <select id="clRole">
+                <option value="observer">Observer</option>
+                <option value="assistant">Assistant</option>
+                <option value="primary_surgeon">Primary Surgeon</option>
+                <option value="teaching">Teaching</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="clDuration">Duration (minutes)</label>
+              <input type="number" id="clDuration" placeholder="e.g., 180" min="0" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="clSupervisor">Supervisor</label>
+              <input type="text" id="clSupervisor" placeholder="Prof. Dr. ..." />
+            </div>
+            <div class="form-group">
+              <label for="clHospital">Hospital</label>
+              <input type="text" id="clHospital" placeholder="Hospital name" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="clPatientAge">Patient Age</label>
+              <input type="number" id="clPatientAge" placeholder="Age" min="0" max="120" />
+            </div>
+            <div class="form-group">
+              <label for="clPatientSex">Patient Sex</label>
+              <select id="clPatientSex">
+                <option value="">--</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="clDiagnosis">Diagnosis</label>
+            <input type="text" id="clDiagnosis" placeholder="e.g., Right frontal GBM" />
+          </div>
+          <div class="form-group">
+            <label for="clOutcome">Outcome</label>
+            <input type="text" id="clOutcome" placeholder="e.g., Gross total resection achieved" />
+          </div>
+          <div class="form-group">
+            <label for="clComplications">Complications</label>
+            <input type="text" id="clComplications" placeholder="e.g., None" />
+          </div>
+          <div class="form-group">
+            <label for="clNotes">Notes</label>
+            <textarea id="clNotes" rows="3" placeholder="Additional notes..."></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="button" class="btn btn-secondary" onclick="closeCaseLogModal()">Cancel</button>
+            <button type="submit" class="btn btn-primary">Save Case Log</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast hidden" id="toast"></div>
   </div>
 
   <script src="app.js"></script>

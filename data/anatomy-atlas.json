@@ -1,0 +1,1078 @@
+{
+  "regions": [
+    {
+      "id": "brain",
+      "name": "Brain",
+      "icon": "🧠",
+      "subregions": [
+        {
+          "id": "frontal-lobe",
+          "name": "Frontal Lobe",
+          "description": "The frontal lobe is the largest lobe of the cerebral cortex, extending from the central sulcus (Rolandic fissure) anteriorly to the frontal pole. It is bounded inferiorly by the Sylvian fissure (lateral sulcus) and medially by the interhemispheric fissure. The frontal lobe encompasses the primary motor cortex (Brodmann area 4), premotor cortex (area 6), supplementary motor area (SMA), prefrontal cortex, and Broca's area (areas 44 and 45) in the dominant hemisphere. The precentral gyrus contains the motor homunculus with somatotopic representation. The inferior frontal gyrus is divided into pars orbitalis, pars triangularis, and pars opercularis. Deep to the cortex lie the corona radiata and the anterior limb of the internal capsule.",
+          "keyStructures": [
+            "Precentral gyrus (primary motor cortex, Brodmann area 4)",
+            "Superior, middle, and inferior frontal gyri",
+            "Broca's area (pars opercularis and pars triangularis)",
+            "Supplementary motor area (SMA)",
+            "Prefrontal cortex (dorsolateral, ventromedial, orbitofrontal)",
+            "Central sulcus (Rolandic fissure)",
+            "Frontal operculum"
+          ],
+          "clinicalRelevance": "Frontal lobe tumors (gliomas, meningiomas of the olfactory groove or falx) can present with personality changes, anosmia, executive dysfunction, or contralateral hemiparesis. Lesions involving Broca's area produce expressive (motor) aphasia. The SMA syndrome following resection causes transient contralateral akinesia and mutism. The precentral gyrus is a critical eloquent zone requiring intraoperative cortical mapping during tumor resection. Bifrontal craniotomies are employed for anterior skull base tumors and olfactory groove meningiomas.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Gray726.svg/800px-Gray726.svg.png",
+              "caption": "Lateral surface of the cerebral hemisphere showing frontal lobe boundaries",
+              "labels": [
+                {"text": "Precentral Gyrus", "x": 38, "y": 25},
+                {"text": "Superior Frontal Gyrus", "x": 22, "y": 18},
+                {"text": "Middle Frontal Gyrus", "x": 20, "y": 38},
+                {"text": "Inferior Frontal Gyrus", "x": 18, "y": 55}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Frontal craniotomy for tumor resection",
+            "Awake craniotomy with cortical mapping",
+            "Bifrontal craniotomy for anterior skull base tumors",
+            "Stereotactic biopsy of frontal lobe lesions"
+          ]
+        },
+        {
+          "id": "temporal-lobe",
+          "name": "Temporal Lobe",
+          "description": "The temporal lobe lies inferior to the Sylvian fissure and extends posteriorly to an imaginary line connecting the preoccipital notch to the parieto-occipital sulcus. It contains the superior, middle, and inferior temporal gyri on its lateral surface, and the fusiform (occipitotemporal) and parahippocampal gyri on its basal surface. The medial temporal structures include the hippocampus, amygdala, and entorhinal cortex, which are critical for memory formation and emotional processing. Wernicke's area (posterior portion of the superior temporal gyrus, Brodmann area 22) in the dominant hemisphere is essential for receptive language. Heschl's gyrus (transverse temporal gyrus) contains the primary auditory cortex.",
+          "keyStructures": [
+            "Superior, middle, and inferior temporal gyri",
+            "Hippocampus and parahippocampal gyrus",
+            "Amygdala",
+            "Wernicke's area (Brodmann area 22)",
+            "Heschl's gyrus (primary auditory cortex)",
+            "Temporal horn of the lateral ventricle",
+            "Uncus and entorhinal cortex",
+            "Meyer's loop (optic radiation)"
+          ],
+          "clinicalRelevance": "The temporal lobe is the most common site of epilepsy amenable to surgical treatment. Anterior temporal lobectomy (ATL) with amygdalohippocampectomy is the standard procedure for medically refractory mesial temporal sclerosis. The uncus can herniate through the tentorial notch in raised intracranial pressure, compressing CN III and the cerebral peduncle (Kernohan notch phenomenon). Meyer's loop courses through the temporal lobe; its injury during temporal surgery causes a contralateral superior quadrantanopia ('pie in the sky' defect). Dominant temporal lesions can cause receptive (Wernicke's) aphasia.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Gray730.svg/800px-Gray730.svg.png",
+              "caption": "Medial view of the cerebral hemisphere showing temporal lobe and hippocampal structures",
+              "labels": [
+                {"text": "Hippocampus", "x": 55, "y": 72},
+                {"text": "Parahippocampal Gyrus", "x": 62, "y": 82},
+                {"text": "Uncus", "x": 42, "y": 78}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Anterior temporal lobectomy",
+            "Selective amygdalohippocampectomy",
+            "Transsylvian approach for insular tumors",
+            "Subtemporal approach for petroclival lesions"
+          ]
+        },
+        {
+          "id": "parietal-lobe",
+          "name": "Parietal Lobe",
+          "description": "The parietal lobe is bounded anteriorly by the central sulcus, inferiorly by the Sylvian fissure and an imaginary line extending to the preoccipital notch, and posteriorly by the parieto-occipital sulcus on the medial surface. It includes the postcentral gyrus (primary somatosensory cortex, Brodmann areas 3, 1, 2), the superior parietal lobule (areas 5, 7), and the inferior parietal lobule consisting of the supramarginal gyrus (area 40) and angular gyrus (area 39). The intraparietal sulcus separates the superior and inferior parietal lobules. The parietal lobe integrates sensory information for spatial awareness, proprioception, and language comprehension.",
+          "keyStructures": [
+            "Postcentral gyrus (primary somatosensory cortex)",
+            "Superior parietal lobule",
+            "Inferior parietal lobule",
+            "Supramarginal gyrus (Brodmann area 40)",
+            "Angular gyrus (Brodmann area 39)",
+            "Intraparietal sulcus",
+            "Precuneus"
+          ],
+          "clinicalRelevance": "Lesions in the dominant parietal lobe can produce Gerstmann syndrome (agraphia, acalculia, finger agnosia, left-right disorientation). Non-dominant parietal lesions cause contralateral hemispatial neglect and anosognosia. The postcentral gyrus represents the sensory homunculus; lesions produce contralateral cortical sensory loss. The angular gyrus is part of the language network, and damage can cause alexia. Parietal lobe tumors near the intraparietal sulcus require careful mapping of the somatosensory cortex. The precuneus is increasingly recognized in the default mode network and consciousness.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Gray726.svg/800px-Gray726.svg.png",
+              "caption": "Lateral view of cerebral cortex highlighting parietal lobe structures",
+              "labels": [
+                {"text": "Postcentral Gyrus", "x": 45, "y": 22},
+                {"text": "Supramarginal Gyrus", "x": 55, "y": 45},
+                {"text": "Angular Gyrus", "x": 62, "y": 48},
+                {"text": "Intraparietal Sulcus", "x": 52, "y": 30}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Parietal craniotomy for tumor resection",
+            "Awake craniotomy with somatosensory evoked potential monitoring",
+            "Interhemispheric approach to parasagittal meningiomas",
+            "Phase reversal for central sulcus localization"
+          ]
+        },
+        {
+          "id": "occipital-lobe",
+          "name": "Occipital Lobe",
+          "description": "The occipital lobe is the most posterior lobe of the brain, separated from the parietal lobe by the parieto-occipital sulcus on the medial surface. The calcarine sulcus divides the medial occipital surface into the cuneus superiorly and the lingual gyrus inferiorly. The primary visual cortex (V1, Brodmann area 17, striate cortex) lines the walls of the calcarine sulcus. Visual association areas (V2-V5, areas 18 and 19) surround V1. The occipital lobe receives its blood supply primarily from the posterior cerebral artery (PCA). The optic radiations terminate in V1, with superior fibers (representing the inferior visual field) reaching the cuneus and inferior fibers (superior visual field) reaching the lingual gyrus.",
+          "keyStructures": [
+            "Primary visual cortex (V1, Brodmann area 17)",
+            "Calcarine sulcus",
+            "Cuneus",
+            "Lingual gyrus",
+            "Visual association cortex (V2-V5)",
+            "Parieto-occipital sulcus",
+            "Optic radiations (geniculocalcarine tract)"
+          ],
+          "clinicalRelevance": "Occipital lobe lesions produce contralateral homonymous hemianopia with macular sparing (due to dual blood supply of the macular region from both PCA and MCA). Bilateral occipital lobe infarction can cause cortical blindness with Anton syndrome (denial of blindness). Occipital lobe epilepsy presents with elementary visual hallucinations (flashing lights, colors). The occipital transtentorial approach is used for pineal region tumors. PCA territory infarcts are the most common cause of isolated occipital lobe pathology. Arteriovenous malformations in this region can present with visual symptoms or hemorrhage.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Gray730.svg/800px-Gray730.svg.png",
+              "caption": "Medial surface of the cerebral hemisphere showing occipital lobe and calcarine sulcus",
+              "labels": [
+                {"text": "Calcarine Sulcus", "x": 82, "y": 55},
+                {"text": "Cuneus", "x": 85, "y": 40},
+                {"text": "Lingual Gyrus", "x": 83, "y": 68}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Occipital craniotomy for tumor resection",
+            "Occipital transtentorial approach for pineal tumors",
+            "Supracerebellar infratentorial approach",
+            "Interhemispheric parieto-occipital approach"
+          ]
+        },
+        {
+          "id": "cerebellum",
+          "name": "Cerebellum",
+          "description": "The cerebellum lies in the posterior fossa beneath the tentorium cerebelli. It consists of two hemispheres connected by the vermis. Anatomically, it is divided into the anterior lobe (above the primary fissure), posterior lobe (between primary and posterolateral fissures), and flocculonodular lobe. Functionally, the cerebellum is organized into the vestibulocerebellum (flocculonodular lobe), spinocerebellum (vermis and paravermal zones), and cerebrocerebellum (lateral hemispheres). Three pairs of cerebellar peduncles (superior, middle, inferior) connect it to the brainstem. The deep cerebellar nuclei include the dentate, emboliform, globose, and fastigial nuclei. The fourth ventricle lies anterior to the cerebellum.",
+          "keyStructures": [
+            "Cerebellar vermis",
+            "Cerebellar hemispheres",
+            "Cerebellar tonsils",
+            "Dentate nucleus",
+            "Superior, middle, and inferior cerebellar peduncles",
+            "Fourth ventricle (anterior to cerebellum)",
+            "Flocculonodular lobe",
+            "Primary fissure"
+          ],
+          "clinicalRelevance": "Cerebellar tumors are common in children (medulloblastoma in vermis, pilocytic astrocytoma in hemispheres). Cerebellar hemorrhage is a neurosurgical emergency requiring suboccipital craniectomy when causing brainstem compression or hydrocephalus. Tonsillar herniation through the foramen magnum can be life-threatening. Chiari malformation involves inferior displacement of the cerebellar tonsils. The cerebellopontine angle is a key surgical corridor for vestibular schwannoma and meningioma surgery. Cerebellar mutism syndrome can occur after midline posterior fossa surgery in children. Damage to the dentate nucleus or superior cerebellar peduncle causes intention tremor.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gray707.png/800px-Gray707.png",
+              "caption": "Sagittal section through the cerebellum showing internal structure and fourth ventricle",
+              "labels": [
+                {"text": "Cerebellar Vermis", "x": 50, "y": 35},
+                {"text": "Fourth Ventricle", "x": 35, "y": 50},
+                {"text": "Dentate Nucleus", "x": 60, "y": 55},
+                {"text": "Cerebellar Tonsil", "x": 52, "y": 78}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Suboccipital craniotomy/craniectomy",
+            "Telovelar approach to fourth ventricle tumors",
+            "Retrosigmoid approach for CPA tumors",
+            "Chiari decompression with duraplasty"
+          ]
+        },
+        {
+          "id": "brainstem",
+          "name": "Brainstem",
+          "description": "The brainstem consists of the midbrain (mesencephalon), pons, and medulla oblongata, connecting the cerebral hemispheres to the spinal cord. The midbrain contains the cerebral peduncles, substantia nigra, red nucleus, superior and inferior colliculi (tectum), and the cerebral aqueduct. The pons contains the pontine nuclei, middle cerebellar peduncle fibers, and the floor of the fourth ventricle. The medulla oblongata contains the pyramids, olives, and gracile and cuneate nuclei. Cranial nerve nuclei III-XII reside within the brainstem. The reticular formation, ascending reticular activating system (ARAS), and autonomic centers controlling respiration and cardiovascular function are critical brainstem structures.",
+          "keyStructures": [
+            "Midbrain: cerebral peduncles, tectum, cerebral aqueduct",
+            "Pons: basis pontis, tegmentum, fourth ventricle floor",
+            "Medulla: pyramids, olives, area postrema",
+            "Reticular formation and ARAS",
+            "Cranial nerve nuclei (CN III-XII)",
+            "Corticospinal tracts (pyramidal tracts)",
+            "Medial lemniscus and spinothalamic tract"
+          ],
+          "clinicalRelevance": "Brainstem surgery is among the most challenging in neurosurgery due to the density of critical structures. Intrinsic brainstem gliomas (diffuse intrinsic pontine glioma, DIPG) are largely inoperable except for focal exophytic or dorsally exophytic tumors. Safe entry zones for brainstem surgery include the peritrigeminal zone, suprafacial triangle, infrafacial triangle, and the floor of the fourth ventricle along the median sulcus. Cavernous malformations reaching a pial or ependymal surface can be resected. Brainstem hemorrhage has high morbidity and mortality. Wallenberg syndrome (lateral medullary syndrome) results from PICA occlusion. Weber, Benedikt, and Claude syndromes are classic midbrain stroke patterns.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gray719.png/800px-Gray719.png",
+              "caption": "Anterior (ventral) view of the brainstem showing cranial nerve exits",
+              "labels": [
+                {"text": "Midbrain", "x": 50, "y": 18},
+                {"text": "Pons", "x": 50, "y": 45},
+                {"text": "Medulla Oblongata", "x": 50, "y": 72},
+                {"text": "Pyramid", "x": 42, "y": 78}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Suboccipital telovelar approach for fourth ventricle tumors",
+            "Retrosigmoid approach for brainstem cavernomas",
+            "Far lateral approach for ventral medullary lesions",
+            "Subtemporal transtentorial approach for midbrain lesions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spine",
+      "name": "Spine",
+      "icon": "🦴",
+      "subregions": [
+        {
+          "id": "cervical-spine",
+          "name": "Cervical Spine",
+          "description": "The cervical spine consists of seven vertebrae (C1-C7) and is the most mobile segment of the vertebral column. The atlas (C1) is a ring-shaped vertebra lacking a body and spinous process, articulating superiorly with the occipital condyles (atlanto-occipital joint) for flexion-extension. The axis (C2) features the dens (odontoid process), which projects superiorly to articulate with C1 (atlantoaxial joint) for rotation. Subaxial cervical vertebrae (C3-C7) feature uncovertebral joints (joints of Luschka), transverse foramina transmitting the vertebral arteries (typically entering at C6), and bifid spinous processes (C2-C6). The spinal cord at cervical levels contains the cervical enlargement (C5-T1) supplying the upper extremities.",
+          "keyStructures": [
+            "Atlas (C1) and axis (C2)",
+            "Odontoid process (dens)",
+            "Vertebral arteries in transverse foramina",
+            "Uncovertebral joints (joints of Luschka)",
+            "Cervical spinal cord and nerve roots (C1-C8)",
+            "Cervical enlargement (C5-T1)",
+            "Posterior longitudinal ligament",
+            "Ligamentum flavum"
+          ],
+          "clinicalRelevance": "Cervical disc herniation most commonly occurs at C5-C6 and C6-C7 levels, causing radiculopathy. Cervical spondylotic myelopathy is the most common cause of spinal cord dysfunction in adults over 55. Anterior cervical discectomy and fusion (ACDF) is the most frequently performed cervical spine procedure. Odontoid fractures (type II) in the elderly may require odontoid screw fixation or posterior C1-C2 fusion (Harms technique). Cervical laminoplasty preserves motion in multilevel stenosis. The vertebral artery is at risk during lateral mass screw placement and far-lateral disc surgery. Central cord syndrome is the most common incomplete spinal cord injury pattern.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Cervical_vertebra_english.png/800px-Cervical_vertebra_english.png",
+              "caption": "Typical cervical vertebra showing anatomical features",
+              "labels": [
+                {"text": "Vertebral Body", "x": 50, "y": 30},
+                {"text": "Transverse Foramen", "x": 25, "y": 45},
+                {"text": "Spinous Process", "x": 50, "y": 85},
+                {"text": "Spinal Canal", "x": 50, "y": 55}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Anterior cervical discectomy and fusion (ACDF)",
+            "Cervical disc arthroplasty",
+            "Posterior cervical laminectomy and fusion",
+            "Cervical laminoplasty",
+            "Odontoid screw fixation",
+            "Posterior C1-C2 fusion (Harms technique)"
+          ]
+        },
+        {
+          "id": "thoracic-spine",
+          "name": "Thoracic Spine",
+          "description": "The thoracic spine comprises twelve vertebrae (T1-T12), characterized by costal facets for rib articulation, a narrow spinal canal, and an anteriorly concave kyphotic curvature. Thoracic vertebral bodies progressively increase in size from T1 to T12. The thoracic spinal cord occupies a larger proportion of the spinal canal compared to the cervical region, making it more susceptible to compression. The artery of Adamkiewicz, the major segmental artery supplying the anterior spinal artery in the lower thoracolumbar region, typically arises from the left side between T9-T12 (range T8-L2). The conus medullaris typically terminates at the L1-L2 level, with the transition zone at the thoracolumbar junction.",
+          "keyStructures": [
+            "Thoracic vertebrae (T1-T12) with costal facets",
+            "Thoracic kyphosis",
+            "Artery of Adamkiewicz (T9-T12)",
+            "Thoracic spinal cord and nerve roots",
+            "Costovertebral and costotransverse joints",
+            "Thoracic pedicles (narrow diameter)",
+            "Anterior longitudinal ligament"
+          ],
+          "clinicalRelevance": "Thoracic disc herniations are relatively uncommon but can cause myelopathy due to the narrow spinal canal. The transthoracic or lateral extracavitary approaches may be required for ventral pathology, as the spinal cord cannot be safely retracted. Thoracic pedicle screws require careful attention to medial breach given the narrow pedicle morphology and proximity of the spinal cord. The artery of Adamkiewicz must be identified and preserved during anterior thoracolumbar procedures to prevent anterior spinal artery syndrome (paraplegia). Spinal cord monitoring with motor and somatosensory evoked potentials is essential during thoracic spine surgery. Scheuermann disease and thoracic fractures may require surgical correction.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Gray90.png/800px-Gray90.png",
+              "caption": "Thoracic vertebra viewed from the side showing costal facets",
+              "labels": [
+                {"text": "Vertebral Body", "x": 35, "y": 50},
+                {"text": "Costal Facet", "x": 20, "y": 38},
+                {"text": "Spinous Process", "x": 78, "y": 65},
+                {"text": "Pedicle", "x": 50, "y": 40}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Thoracic pedicle screw fixation",
+            "Transthoracic discectomy",
+            "Costotransversectomy",
+            "Lateral extracavitary approach",
+            "Thoracic laminectomy for spinal cord decompression"
+          ]
+        },
+        {
+          "id": "lumbar-spine",
+          "name": "Lumbar Spine",
+          "description": "The lumbar spine consists of five vertebrae (L1-L5) with the largest vertebral bodies in the spinal column, adapted to bear significant axial loads. The lumbar lordotic curvature is crucial for sagittal balance. Below the conus medullaris (typically L1-L2), the spinal canal contains the cauda equina (nerve roots L2-S5 and coccygeal nerves) bathed in cerebrospinal fluid within the thecal sac. The lumbar nerve roots exit below the pedicle of their corresponding vertebra (e.g., L4 root exits below L4 pedicle). The intervertebral disc consists of the nucleus pulposus centrally and annulus fibrosus peripherally. The posterior elements include broad laminae, thick pedicles, and facet joints oriented in the sagittal plane.",
+          "keyStructures": [
+            "Lumbar vertebral bodies (L1-L5)",
+            "Cauda equina",
+            "Intervertebral discs (nucleus pulposus and annulus fibrosus)",
+            "Lumbar facet joints (sagittal orientation)",
+            "Ligamentum flavum",
+            "Lumbar pedicles",
+            "Thecal sac and nerve root sleeves",
+            "Paraspinal muscles (multifidus, erector spinae)"
+          ],
+          "clinicalRelevance": "Lumbar disc herniation is the most common indication for spine surgery, with L4-L5 and L5-S1 being the most frequently affected levels. Lumbar spinal stenosis (central and lateral recess) causes neurogenic claudication. Lumbar microdiscectomy is the gold standard for symptomatic disc herniation failing conservative treatment. Lumbar fusion (PLIF, TLIF, ALIF, LLIF) is indicated for spondylolisthesis, recurrent disc herniation, and degenerative instability. Cauda equina syndrome (urinary retention, saddle anesthesia, bilateral leg weakness) is a surgical emergency requiring urgent decompression within 24-48 hours. Minimally invasive techniques (tubular retractors, endoscopic discectomy) reduce paraspinal muscle injury.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gray93.png/800px-Gray93.png",
+              "caption": "Lumbar vertebra showing characteristic features and large vertebral body",
+              "labels": [
+                {"text": "Vertebral Body", "x": 40, "y": 45},
+                {"text": "Pedicle", "x": 55, "y": 35},
+                {"text": "Lamina", "x": 65, "y": 55},
+                {"text": "Spinous Process", "x": 75, "y": 70}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Lumbar microdiscectomy",
+            "Lumbar laminectomy for spinal stenosis",
+            "Transforaminal lumbar interbody fusion (TLIF)",
+            "Anterior lumbar interbody fusion (ALIF)",
+            "Lateral lumbar interbody fusion (LLIF/XLIF)",
+            "Minimally invasive tubular decompression"
+          ]
+        },
+        {
+          "id": "sacral-spine",
+          "name": "Sacral Spine",
+          "description": "The sacrum is a large triangular bone formed by the fusion of five sacral vertebrae (S1-S5). It articulates superiorly with L5 at the lumbosacral junction, laterally with the iliac bones at the sacroiliac (SI) joints, and inferiorly with the coccyx. The sacral canal is a continuation of the spinal canal containing the cauda equina and filum terminale. The sacral foramina (anterior and posterior) transmit the sacral nerve roots. The sacral promontory (anterior superior edge of S1) is an important surgical landmark. The sacral hiatus is the opening at the caudal end of the sacral canal, used for caudal epidural access. The sacral nerve roots provide motor and sensory innervation to the pelvic floor, bladder, bowel, and lower extremities.",
+          "keyStructures": [
+            "Sacral promontory",
+            "Sacral ala",
+            "Anterior and posterior sacral foramina",
+            "Sacral canal and sacral hiatus",
+            "Sacroiliac joints",
+            "Sacral nerve roots (S1-S5)",
+            "Filum terminale",
+            "Presacral venous plexus"
+          ],
+          "clinicalRelevance": "Sacral tumors include chordomas (most common primary malignant sacral tumor), giant cell tumors, and schwannomas. En bloc sacrectomy requires sacrifice of sacral nerve roots, with bilateral S3 preservation critical for maintaining bowel and bladder function. Sacral fractures (H-type or U-type) can occur in high-energy trauma and may require lumbopelvic fixation. Tethered cord syndrome can involve a thickened filum terminale that may be sectioned at the sacral level. Sacroiliac joint dysfunction is an underrecognized cause of low back pain. The presacral venous plexus poses significant hemorrhage risk during anterior sacral approaches. Tarlov (perineural) cysts can cause sacral radiculopathy.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Gray95.png/800px-Gray95.png",
+              "caption": "Anterior view of the sacrum showing foramina and sacral promontory",
+              "labels": [
+                {"text": "Sacral Promontory", "x": 50, "y": 10},
+                {"text": "Anterior Sacral Foramina", "x": 35, "y": 45},
+                {"text": "Sacral Ala", "x": 75, "y": 18},
+                {"text": "Sacral Hiatus", "x": 50, "y": 90}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "En bloc sacrectomy for chordoma",
+            "Lumbopelvic fixation for sacral fractures",
+            "Filum terminale sectioning for tethered cord",
+            "Sacroiliac joint fusion",
+            "Caudal epidural injection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cerebrovascular",
+      "name": "Cerebrovascular",
+      "icon": "🔴",
+      "subregions": [
+        {
+          "id": "circle-of-willis",
+          "name": "Circle of Willis",
+          "description": "The circle of Willis (circulus arteriosus cerebri) is a polygonal arterial anastomosis at the base of the brain formed by branches of the internal carotid arteries (ICA) and vertebrobasilar system. It consists of the anterior communicating artery (AComm) connecting the two anterior cerebral arteries (ACAs), the paired posterior communicating arteries (PComm) connecting the ICAs to the posterior cerebral arteries (PCAs), and the proximal segments of the ACA (A1), MCA (M1), and PCA (P1). A complete circle is present in only approximately 25-50% of individuals, with common variations including hypoplastic or absent segments. The circle provides collateral blood flow between the anterior and posterior circulations and between hemispheres.",
+          "keyStructures": [
+            "Anterior communicating artery (AComm)",
+            "A1 segments of both anterior cerebral arteries",
+            "Internal carotid artery bifurcation",
+            "Posterior communicating arteries (PComm)",
+            "P1 segments of posterior cerebral arteries",
+            "Basilar artery terminus",
+            "Perforating arteries (lenticulostriate, thalamoperforating)"
+          ],
+          "clinicalRelevance": "The circle of Willis is the most common site for intracranial aneurysms. AComm aneurysms are the most frequent (30-35%), followed by PComm (25%) and MCA bifurcation (20%). Subarachnoid hemorrhage (SAH) from aneurysm rupture requires urgent microsurgical clipping or endovascular coiling. Anatomical variations in the circle of Willis determine tolerance to vessel occlusion and balloon test occlusion results. Perforating arteries arising from the circle are critical; their injury during aneurysm surgery causes stroke. The circle of Willis is best evaluated with CT angiography or catheter angiography. Fetal-type PCA (PCA arising from ICA via large PComm) is present in 15-30% of individuals and affects surgical planning.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Circle_of_Willis_en.svg/800px-Circle_of_Willis_en.svg.png",
+              "caption": "Schematic diagram of the circle of Willis showing major arterial components",
+              "labels": [
+                {"text": "Anterior Communicating A.", "x": 50, "y": 15},
+                {"text": "Internal Carotid A.", "x": 30, "y": 50},
+                {"text": "Posterior Communicating A.", "x": 35, "y": 65},
+                {"text": "Basilar A.", "x": 50, "y": 85}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Microsurgical aneurysm clipping",
+            "Endovascular coil embolization",
+            "EC-IC bypass (STA-MCA anastomosis)",
+            "Balloon test occlusion",
+            "Pterional craniotomy for anterior circulation aneurysms"
+          ]
+        },
+        {
+          "id": "middle-cerebral-artery",
+          "name": "Middle Cerebral Artery (MCA)",
+          "description": "The middle cerebral artery is the largest branch of the internal carotid artery and supplies the majority of the lateral cerebral hemisphere. It is divided into four segments: M1 (sphenoidal/horizontal segment) from the ICA bifurcation to the Sylvian fissure, M2 (insular segment) coursing over the insula, M3 (opercular segment) passing over the frontal, temporal, and parietal opercula, and M4 (cortical segment) on the lateral convexity surface. The M1 segment gives rise to the lateral lenticulostriate arteries, which supply the basal ganglia and internal capsule. The MCA typically bifurcates (78%) or trifurcates (12%) at the genu into superior and inferior trunks.",
+          "keyStructures": [
+            "M1 segment (sphenoidal/horizontal)",
+            "M2 segment (insular)",
+            "M3 segment (opercular)",
+            "M4 segment (cortical branches)",
+            "Lateral lenticulostriate arteries",
+            "MCA bifurcation/trifurcation",
+            "Superior and inferior division branches",
+            "Sylvian fissure"
+          ],
+          "clinicalRelevance": "MCA occlusion is the most common large vessel occlusion causing ischemic stroke, presenting with contralateral hemiplegia (face and arm more than leg), hemisensory loss, and aphasia (dominant hemisphere) or neglect (non-dominant hemisphere). MCA bifurcation aneurysms are the third most common intracranial aneurysms and are often treated surgically via pterional or lateral supraorbital approach. The lateral lenticulostriate arteries are critical end arteries; their occlusion causes lacunar infarcts in the basal ganglia and internal capsule. Mechanical thrombectomy for acute M1 occlusion significantly improves outcomes. Moyamoya disease causes progressive stenosis of the distal ICA and proximal MCA.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Gray517.png/800px-Gray517.png",
+              "caption": "Arteries at the base of the brain showing MCA and its branches",
+              "labels": [
+                {"text": "M1 Segment", "x": 38, "y": 42},
+                {"text": "MCA Bifurcation", "x": 25, "y": 35},
+                {"text": "Lenticulostriate Arteries", "x": 40, "y": 30}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Pterional craniotomy for MCA aneurysm clipping",
+            "STA-MCA bypass for Moyamoya disease",
+            "Mechanical thrombectomy for acute MCA occlusion",
+            "Sylvian fissure dissection for insular tumor access",
+            "Decompressive hemicraniectomy for malignant MCA infarction"
+          ]
+        },
+        {
+          "id": "anterior-cerebral-artery",
+          "name": "Anterior Cerebral Artery (ACA)",
+          "description": "The anterior cerebral artery supplies the medial surface of the frontal and parietal lobes. It is divided into five segments: A1 (pre-communicating, from ICA bifurcation to AComm), A2 (infracallosal, from AComm to the genu of the corpus callosum), A3 (precallosal), A4 (supracallosal), and A5 (postcallosal). The ACA gives rise to the recurrent artery of Heubner (medial striate artery), which originates near the AComm and supplies the head of the caudate nucleus, anterior limb of the internal capsule, and anterior putamen. The pericallosal artery and callosomarginal artery are the two main terminal branches, running in the pericallosal cistern.",
+          "keyStructures": [
+            "A1 segment (pre-communicating)",
+            "A2 segment (infracallosal/post-communicating)",
+            "Anterior communicating artery (AComm)",
+            "Recurrent artery of Heubner",
+            "Pericallosal artery",
+            "Callosomarginal artery",
+            "Frontopolar artery",
+            "Medial lenticulostriate (Heubner) perforators"
+          ],
+          "clinicalRelevance": "AComm aneurysms are the most common intracranial aneurysms, often presenting with SAH and frequently associated with frontal lobe hematoma. The interhemispheric approach is used for distal ACA aneurysms and falcine meningiomas. Bilateral ACA vasospasm after SAH can cause bifrontal infarction with abulia (akinetic mutism). The recurrent artery of Heubner is at high risk during AComm aneurysm surgery; its injury causes contralateral face and arm weakness. A1 hypoplasia is a common variant that increases risk of AComm aneurysm formation. ACA territory infarction causes contralateral leg weakness greater than arm (motor homunculus representation of leg on medial hemisphere).",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Gray517.png/800px-Gray517.png",
+              "caption": "Basal view of the brain showing the anterior cerebral arteries",
+              "labels": [
+                {"text": "A1 Segment", "x": 45, "y": 22},
+                {"text": "Anterior Communicating A.", "x": 50, "y": 18},
+                {"text": "A2 Segment", "x": 48, "y": 12}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Pterional approach for AComm aneurysm clipping",
+            "Interhemispheric approach for distal ACA aneurysms",
+            "Orbitozygomatic approach for complex AComm aneurysms",
+            "Endovascular coiling of AComm aneurysms"
+          ]
+        },
+        {
+          "id": "posterior-cerebral-artery",
+          "name": "Posterior Cerebral Artery (PCA)",
+          "description": "The posterior cerebral artery arises as the terminal bifurcation of the basilar artery and supplies the occipital lobe, inferomedial temporal lobe, and posterior thalamus. It is divided into four segments: P1 (pre-communicating, from basilar tip to PComm), P2 (ambient segment, coursing around the cerebral peduncle in the ambient cistern), P3 (quadrigeminal segment, in the quadrigeminal cistern), and P4 (calcarine segment, terminal cortical branches). The P1 segment gives rise to thalamoperforating arteries supplying the medial thalamus and midbrain. Cortical branches include the posterior temporal, parieto-occipital, and calcarine arteries. In fetal-type PCA (15-30%), the PCA arises primarily from the ICA via the PComm.",
+          "keyStructures": [
+            "P1 segment (pre-communicating)",
+            "P2 segment (ambient cistern)",
+            "P3 segment (quadrigeminal cistern)",
+            "P4 segment (calcarine/cortical)",
+            "Thalamoperforating arteries",
+            "Posterior choroidal arteries",
+            "Calcarine artery",
+            "Parieto-occipital artery"
+          ],
+          "clinicalRelevance": "Basilar apex aneurysms involve the PCA origin and are among the most challenging aneurysms to treat, requiring pterional, orbitozygomatic, or subtemporal approaches. PCA infarction causes contralateral homonymous hemianopia. Bilateral PCA occlusion causes cortical blindness. Thalamoperforating artery occlusion results in paramedian thalamic syndrome (decreased consciousness, vertical gaze palsy, memory impairment). The PCA is closely related to the tentorial edge, and is vulnerable to compression during transtentorial herniation (producing occipital infarction). Top-of-basilar syndrome causes complex visual, oculomotor, and behavioral deficits.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Gray517.png/800px-Gray517.png",
+              "caption": "Basal view of brain arteries showing posterior cerebral arteries",
+              "labels": [
+                {"text": "P1 Segment", "x": 45, "y": 58},
+                {"text": "Basilar Artery", "x": 50, "y": 70},
+                {"text": "P2 Segment (Ambient)", "x": 30, "y": 55}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Subtemporal approach for basilar apex aneurysms",
+            "Orbitozygomatic approach for basilar tip aneurysms",
+            "Endovascular treatment of PCA aneurysms",
+            "Occipital transtentorial approach for P2-P3 pathology"
+          ]
+        },
+        {
+          "id": "venous-sinuses",
+          "name": "Dural Venous Sinuses",
+          "description": "The dural venous sinuses are venous channels within the layers of the dura mater that drain blood from the brain, meninges, and calvarium into the internal jugular veins. The superior sagittal sinus (SSS) runs along the superior border of the falx cerebri from the crista galli to the confluence of sinuses (torcular Herophili). The inferior sagittal sinus runs along the inferior border of the falx, joining the great vein of Galen to form the straight sinus. The transverse sinuses course along the tentorium and transition into the sigmoid sinuses, which drain into the internal jugular veins at the jugular foramen. The cavernous sinuses are paired structures flanking the sella turcica, containing the internal carotid artery and cranial nerves III, IV, V1, V2, and VI.",
+          "keyStructures": [
+            "Superior sagittal sinus (SSS)",
+            "Inferior sagittal sinus",
+            "Straight sinus",
+            "Confluence of sinuses (torcular Herophili)",
+            "Transverse sinuses",
+            "Sigmoid sinuses",
+            "Cavernous sinuses",
+            "Great vein of Galen (vein of Galen)",
+            "Superior and inferior petrosal sinuses"
+          ],
+          "clinicalRelevance": "Parasagittal meningiomas can invade the superior sagittal sinus, complicating surgical resection. The posterior third of the SSS and confluence of sinuses cannot be sacrificed due to risk of venous infarction and death. Dural arteriovenous fistulas (dAVFs) most commonly involve the transverse-sigmoid sinus junction. Cerebral venous thrombosis (CVT) of the sinuses causes raised intracranial pressure, venous infarction, and hemorrhage. The bridging veins draining into the SSS are vulnerable during interhemispheric approaches and in head trauma (subdural hematoma). The vein of Labbe (inferior anastomotic vein) must be preserved during temporal lobe surgery. Transverse sinus stenosis is associated with idiopathic intracranial hypertension.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Gray488.png/800px-Gray488.png",
+              "caption": "Dural venous sinuses shown in sagittal section",
+              "labels": [
+                {"text": "Superior Sagittal Sinus", "x": 45, "y": 10},
+                {"text": "Straight Sinus", "x": 65, "y": 45},
+                {"text": "Confluence of Sinuses", "x": 80, "y": 40},
+                {"text": "Transverse Sinus", "x": 78, "y": 55}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Parasagittal meningioma resection with sinus reconstruction",
+            "Transverse-sigmoid sinus dAVF embolization",
+            "Venous sinus stenting for IIH",
+            "Jugular foramen surgery for glomus tumors",
+            "Endovascular thrombectomy for cerebral venous thrombosis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cranial-nerves",
+      "name": "Cranial Nerves",
+      "icon": "🔬",
+      "subregions": [
+        {
+          "id": "cn-i-iv",
+          "name": "Cranial Nerves I-IV",
+          "description": "Cranial nerve I (Olfactory): The olfactory nerves consist of unmyelinated axons from olfactory receptor neurons in the nasal mucosa that traverse the cribriform plate to synapse in the olfactory bulb. The olfactory tract courses along the olfactory sulcus to the primary olfactory cortex. CN II (Optic): Retinal ganglion cell axons form the optic nerve, which passes through the optic canal to join the optic chiasm, where nasal fibers decussate. The optic tracts project to the lateral geniculate nucleus. CN III (Oculomotor): Arises from the midbrain, courses between the PCA and SCA, through the cavernous sinus, and enters the orbit via the superior orbital fissure. Innervates the superior, medial, and inferior recti, inferior oblique, and levator palpebrae superioris, plus parasympathetic fibers to the pupil. CN IV (Trochlear): The thinnest cranial nerve with the longest intracranial course, it exits the dorsal midbrain, wraps around the cerebral peduncle, and innervates the contralateral superior oblique muscle.",
+          "keyStructures": [
+            "CN I: Olfactory bulb, olfactory tract, cribriform plate",
+            "CN II: Optic nerve, optic chiasm, optic tract, optic canal",
+            "CN III: Oculomotor nucleus in midbrain, Edinger-Westphal nucleus",
+            "CN IV: Trochlear nucleus, dorsal midbrain exit",
+            "Superior orbital fissure",
+            "Cavernous sinus (CN III, IV traverse lateral wall)"
+          ],
+          "clinicalRelevance": "CN I: Anosmia occurs with olfactory groove meningiomas, anterior skull base fractures, and post-viral injury. CN II: The optic nerve is at risk during transsphenoidal surgery, pituitary apoplexy, and suprasellar tumors (chiasmal compression causes bitemporal hemianopia). CN III: Palsy with pupil involvement (down and out eye with dilated pupil) suggests compression (aneurysm, uncal herniation), while pupil-sparing palsy suggests microvascular ischemia. PComm aneurysms are the most common cause of compressive CN III palsy. CN IV: Palsy causes vertical diplopia worse with head tilt; commonly injured in trauma due to its long course and dorsal exit.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gray719.png/800px-Gray719.png",
+              "caption": "Ventral brainstem showing cranial nerve origins",
+              "labels": [
+                {"text": "CN I (Olfactory)", "x": 40, "y": 5},
+                {"text": "CN II (Optic)", "x": 45, "y": 12},
+                {"text": "CN III (Oculomotor)", "x": 42, "y": 28},
+                {"text": "CN IV (Trochlear)", "x": 65, "y": 35}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Transsphenoidal surgery for pituitary tumors (CN II protection)",
+            "Olfactory groove meningioma resection (CN I preservation)",
+            "PComm aneurysm clipping (CN III decompression)",
+            "Optic nerve decompression via craniotomy or endoscopic approach"
+          ]
+        },
+        {
+          "id": "cn-v-viii",
+          "name": "Cranial Nerves V-VIII",
+          "description": "CN V (Trigeminal): The largest cranial nerve, with motor root from the pons and sensory root entering the trigeminal (Gasserian/semilunar) ganglion in Meckel's cave. Three divisions: V1 (ophthalmic, via superior orbital fissure), V2 (maxillary, via foramen rotundum), V3 (mandibular, via foramen ovale). CN VI (Abducens): Arises from the pontomedullary junction, has the longest intracranial subarachnoid course, passes through Dorello's canal beneath the petroclival ligament (Gruber's ligament) to enter the cavernous sinus, then the orbit via superior orbital fissure to innervate the lateral rectus. CN VII (Facial): Motor, sensory (taste), and parasympathetic fibers. Exits the pontomedullary junction, traverses the CPA, enters the internal auditory canal (IAC) with CN VIII, courses through the temporal bone (labyrinthine, tympanic, mastoid segments), and exits via the stylomastoid foramen. CN VIII (Vestibulocochlear): Cochlear and vestibular divisions travel through the IAC with CN VII.",
+          "keyStructures": [
+            "CN V: Trigeminal ganglion (Meckel's cave), three divisions (V1, V2, V3)",
+            "CN VI: Dorello's canal, cavernous sinus traversal",
+            "CN VII: Internal auditory canal, facial canal segments, stylomastoid foramen",
+            "CN VIII: Cochlear and vestibular divisions, IAC",
+            "Cerebellopontine angle (CPA)",
+            "Internal auditory canal (IAC)",
+            "Meckel's cave"
+          ],
+          "clinicalRelevance": "CN V: Trigeminal neuralgia (tic douloureux) is often caused by vascular compression at the root entry zone, treated with microvascular decompression (MVD, Jannetta procedure), percutaneous rhizotomy, or stereotactic radiosurgery. Trigeminal schwannomas can extend into the posterior and middle fossa. CN VI: The most commonly affected cranial nerve in raised ICP (false localizing sign due to long course). CN VII: Preservation is the primary concern during vestibular schwannoma surgery; intraoperative facial nerve monitoring (EMG) is mandatory. House-Brackmann grading system classifies facial nerve function. CN VIII: Vestibular schwannomas (acoustic neuromas) arise from the vestibular division; hearing preservation surgery requires auditory brainstem response (ABR) monitoring.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gray719.png/800px-Gray719.png",
+              "caption": "Brainstem showing exit points of cranial nerves V through VIII",
+              "labels": [
+                {"text": "CN V (Trigeminal)", "x": 28, "y": 42},
+                {"text": "CN VI (Abducens)", "x": 40, "y": 55},
+                {"text": "CN VII (Facial)", "x": 35, "y": 58},
+                {"text": "CN VIII (Vestibulocochlear)", "x": 28, "y": 60}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Microvascular decompression (MVD) for trigeminal neuralgia",
+            "Retrosigmoid or translabyrinthine approach for vestibular schwannoma",
+            "Percutaneous balloon compression/radiofrequency rhizotomy for TN",
+            "Middle fossa approach for small intracanalicular schwannomas",
+            "Facial nerve repair and grafting"
+          ]
+        },
+        {
+          "id": "cn-ix-xii",
+          "name": "Cranial Nerves IX-XII",
+          "description": "CN IX (Glossopharyngeal): Exits the medulla as rootlets in the postolivary sulcus, passes through the jugular foramen (pars nervosa). Provides sensation to the posterior third of the tongue, oropharynx, and carotid body/sinus. CN X (Vagus): The longest cranial nerve, exits the medulla in the postolivary sulcus, passes through the jugular foramen (pars vasculosa), innervates the larynx (recurrent laryngeal nerve), pharynx, and provides parasympathetic innervation to thoracic and abdominal viscera. CN XI (Accessory/Spinal Accessory): Has cranial and spinal roots; the spinal root arises from the upper cervical spinal cord (C1-C5), ascends through the foramen magnum, joins the cranial root, and exits via the jugular foramen. Innervates the sternocleidomastoid and trapezius. CN XII (Hypoglossal): Exits the medulla between the pyramid and olive, passes through the hypoglossal canal, innervates all intrinsic and extrinsic tongue muscles except palatoglossus.",
+          "keyStructures": [
+            "CN IX: Postolivary sulcus, jugular foramen (pars nervosa)",
+            "CN X: Jugular foramen (pars vasculosa), recurrent laryngeal nerve",
+            "CN XI: Spinal root (C1-C5), jugular foramen",
+            "CN XII: Pre-olivary sulcus exit, hypoglossal canal",
+            "Jugular foramen",
+            "Hypoglossal canal",
+            "Nucleus ambiguus (CN IX, X, XI motor nucleus)"
+          ],
+          "clinicalRelevance": "Jugular foramen tumors (glomus jugulare, schwannomas, meningiomas) can affect CN IX, X, and XI simultaneously (jugular foramen syndrome/Vernet syndrome). Glossopharyngeal neuralgia presents as lancinating pain in the ear and throat, treatable with MVD. CN X injury causes vocal cord paralysis, hoarseness, and dysphagia; it is at risk during carotid endarterectomy. CN XI is vulnerable during posterior triangle lymph node biopsy and radical neck dissection. CN XII palsy causes tongue deviation toward the lesion side; it is at risk during far-lateral approaches and carotid surgery. The hypoglossal canal is a key landmark in far-lateral (transcondylar) approaches to the ventral foramen magnum.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gray719.png/800px-Gray719.png",
+              "caption": "Ventral brainstem showing lower cranial nerve exit points",
+              "labels": [
+                {"text": "CN IX (Glossopharyngeal)", "x": 32, "y": 63},
+                {"text": "CN X (Vagus)", "x": 30, "y": 68},
+                {"text": "CN XI (Accessory)", "x": 28, "y": 74},
+                {"text": "CN XII (Hypoglossal)", "x": 40, "y": 70}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Far lateral (transcondylar) approach for foramen magnum lesions",
+            "Jugular foramen surgery for glomus jugulare tumors",
+            "Microvascular decompression for glossopharyngeal neuralgia",
+            "Carotid endarterectomy (CN X, XII at risk)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skull-base",
+      "name": "Skull Base",
+      "icon": "💀",
+      "subregions": [
+        {
+          "id": "anterior-fossa",
+          "name": "Anterior Cranial Fossa",
+          "description": "The anterior cranial fossa is the shallowest of the three cranial fossae, formed by the orbital plates of the frontal bone laterally, the cribriform plate of the ethmoid bone centrally, and the lesser wing and anterior clinoid process of the sphenoid bone posteriorly. The crista galli projects superiorly from the cribriform plate, providing attachment for the falx cerebri. The anterior ethmoidal artery (branch of the ophthalmic artery) traverses the anterior ethmoidal foramen in the medial orbital wall and crosses the cribriform plate. The olfactory bulbs rest on the cribriform plate in the olfactory grooves. The planum sphenoidale connects the posterior cribriform plate to the tuberculum sellae.",
+          "keyStructures": [
+            "Cribriform plate of the ethmoid bone",
+            "Crista galli",
+            "Orbital plates of the frontal bone",
+            "Lesser wing of the sphenoid",
+            "Anterior clinoid process",
+            "Planum sphenoidale",
+            "Anterior and posterior ethmoidal arteries",
+            "Olfactory grooves and olfactory bulbs"
+          ],
+          "clinicalRelevance": "Olfactory groove meningiomas arise from the cribriform plate and can grow to large size before diagnosis due to gradual bilateral anosmia and frontal lobe compression (Foster Kennedy syndrome: ipsilateral optic atrophy, contralateral papilledema). Anterior skull base fractures through the cribriform plate cause CSF rhinorrhea, anosmia, and risk of ascending meningitis (pneumocephalus is a diagnostic clue). The bifrontal craniotomy with or without orbital osteotomy is the classic approach. Extended endoscopic endonasal approaches provide a minimally invasive corridor to midline anterior skull base lesions including esthesioneuroblastoma, meningiomas, and encephaloceles. The anterior ethmoidal artery is a critical landmark and must be coagulated during endoscopic approaches to prevent retraction into the orbit.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Gray193.png/800px-Gray193.png",
+              "caption": "Internal view of the skull base showing the anterior cranial fossa",
+              "labels": [
+                {"text": "Cribriform Plate", "x": 50, "y": 22},
+                {"text": "Crista Galli", "x": 50, "y": 18},
+                {"text": "Orbital Plate", "x": 30, "y": 25},
+                {"text": "Lesser Wing of Sphenoid", "x": 35, "y": 35}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Bifrontal craniotomy for olfactory groove meningioma",
+            "Endoscopic endonasal approach for anterior skull base tumors",
+            "Anterior skull base reconstruction (pericranial flap, nasoseptal flap)",
+            "CSF leak repair for anterior fossa fractures"
+          ]
+        },
+        {
+          "id": "middle-fossa",
+          "name": "Middle Cranial Fossa",
+          "description": "The middle cranial fossa is deeper than the anterior fossa and houses the temporal lobes. It is formed by the greater wing of the sphenoid bone and the squamous and petrous parts of the temporal bone. Key foramina include the foramen rotundum (V2), foramen ovale (V3), foramen spinosum (middle meningeal artery), and the superior orbital fissure (CN III, IV, V1, VI). The sella turcica, containing the pituitary gland, occupies the midline with the cavernous sinuses on either side. The petrous apex forms the posteromedial boundary. The middle meningeal artery, a branch of the maxillary artery, enters through the foramen spinosum and courses along the inner table of the temporal bone. The floor of the middle fossa contains the tegmen tympani (roof of the middle ear) and tegmen mastoideum.",
+          "keyStructures": [
+            "Greater wing of the sphenoid bone",
+            "Sella turcica and pituitary fossa",
+            "Foramen rotundum (CN V2)",
+            "Foramen ovale (CN V3)",
+            "Foramen spinosum (middle meningeal artery)",
+            "Superior orbital fissure",
+            "Petrous apex of temporal bone",
+            "Tegmen tympani",
+            "Middle meningeal artery groove"
+          ],
+          "clinicalRelevance": "Epidural hematomas in the temporal region result from middle meningeal artery laceration in temporal bone fractures, requiring emergent craniotomy. The middle fossa approach is used for hearing preservation surgery in small vestibular schwannomas confined to the IAC. Sphenoid wing meningiomas (medial, middle, lateral) present unique surgical challenges based on their relationship to the cavernous sinus, ICA, and optic nerve. Trigeminal schwannomas can occupy the middle fossa (Meckel's cave). The middle fossa floor provides access to the petrous ICA for EC-IC bypass. Temporal bone fractures (longitudinal and transverse) can injure the facial nerve and cause CSF otorrhea.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Gray193.png/800px-Gray193.png",
+              "caption": "Superior view of skull base showing middle cranial fossa structures",
+              "labels": [
+                {"text": "Sella Turcica", "x": 50, "y": 42},
+                {"text": "Greater Wing of Sphenoid", "x": 30, "y": 42},
+                {"text": "Foramen Ovale", "x": 38, "y": 48},
+                {"text": "Petrous Ridge", "x": 32, "y": 55}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Middle fossa approach for vestibular schwannoma",
+            "Transsphenoidal approach for pituitary tumors",
+            "Craniotomy for sphenoid wing meningioma",
+            "Epidural hematoma evacuation",
+            "Middle fossa repair of tegmen defects and CSF leaks"
+          ]
+        },
+        {
+          "id": "posterior-fossa",
+          "name": "Posterior Cranial Fossa",
+          "description": "The posterior cranial fossa is the deepest and largest cranial fossa, housing the brainstem and cerebellum. It is formed by the occipital bone posteriorly and the petrous part of the temporal bone anterolaterally, with the dorsum sellae and clivus forming the anterior wall. The foramen magnum is the largest skull base foramen, transmitting the medulla oblongata, vertebral arteries, spinal accessory nerves, and the anterior and posterior spinal arteries. The jugular foramen (CN IX, X, XI, and the sigmoid sinus-internal jugular vein transition) lies anterolateral to the foramen magnum. The internal auditory canal transmits CN VII and VIII. The tentorium cerebelli separates the posterior fossa from the supratentorial compartment, with the tentorial notch (incisura) containing the midbrain.",
+          "keyStructures": [
+            "Foramen magnum",
+            "Clivus",
+            "Jugular foramen",
+            "Internal auditory canal (IAC)",
+            "Hypoglossal canal",
+            "Tentorium cerebelli and tentorial notch",
+            "Sigmoid sinus groove",
+            "Internal occipital protuberance and crest"
+          ],
+          "clinicalRelevance": "Posterior fossa tumors include vestibular schwannomas, meningiomas, epidermoid cysts (CPA), and in children, medulloblastomas, ependymomas, and pilocytic astrocytomas. The retrosigmoid (suboccipital) approach is the workhorse for CPA tumors. The far lateral (transcondylar) approach provides access to ventral foramen magnum lesions (meningiomas, chordomas). Chiari I malformation requires posterior fossa decompression. Posterior fossa pathology can cause obstructive hydrocephalus by compressing the fourth ventricle or cerebral aqueduct. Upward (transtentorial) herniation of the cerebellum can occur after rapid CSF drainage in posterior fossa mass lesions. The posterior fossa is prone to hemorrhagic complications after surgery due to the bridging veins and sinuses.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Gray193.png/800px-Gray193.png",
+              "caption": "Internal view of the skull base highlighting the posterior cranial fossa",
+              "labels": [
+                {"text": "Foramen Magnum", "x": 50, "y": 75},
+                {"text": "Clivus", "x": 50, "y": 58},
+                {"text": "Jugular Foramen", "x": 38, "y": 68},
+                {"text": "Internal Auditory Canal", "x": 35, "y": 58}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Retrosigmoid (suboccipital) craniotomy for CPA tumors",
+            "Far lateral (transcondylar) approach for foramen magnum lesions",
+            "Midline suboccipital craniotomy for cerebellar tumors",
+            "Posterior fossa decompression for Chiari I malformation",
+            "Translabyrinthine approach for large vestibular schwannomas"
+          ]
+        },
+        {
+          "id": "cavernous-sinus",
+          "name": "Cavernous Sinus",
+          "description": "The cavernous sinus is a paired dural venous sinus located on either side of the sella turcica, extending from the superior orbital fissure anteriorly to the petrous apex posteriorly. It is unique among dural sinuses because it contains an artery (the internal carotid artery with its cavernous segment, C4) and cranial nerves traversing through it. CN III, CN IV, V1, and V2 course through the lateral wall, while CN VI runs within the sinus itself, medial to V1 and lateral to the ICA. The cavernous sinus receives venous drainage from the superior and inferior ophthalmic veins, sphenoparietal sinus, and superficial middle cerebral vein. It drains into the superior and inferior petrosal sinuses and via emissary veins to the pterygoid plexus.",
+          "keyStructures": [
+            "Internal carotid artery (cavernous segment, C4)",
+            "CN III (oculomotor) in lateral wall",
+            "CN IV (trochlear) in lateral wall",
+            "CN V1 (ophthalmic) in lateral wall",
+            "CN V2 (maxillary) in inferolateral wall",
+            "CN VI (abducens) within the sinus body",
+            "Superior and inferior ophthalmic veins",
+            "Lateral sellar compartment (Parkinson triangle, Mullan triangle)"
+          ],
+          "clinicalRelevance": "Cavernous sinus meningiomas are challenging due to encasement of the ICA and cranial nerves; complete resection carries high morbidity, so many are managed with stereotactic radiosurgery or subtotal resection. Carotid-cavernous fistulas (CCFs) are classified as direct (traumatic, high-flow) or indirect (dural, low-flow) and present with pulsatile proptosis, chemosis, and cranial nerve palsies. Pituitary adenomas with cavernous sinus invasion (Knosp grade 3-4) are difficult to cure surgically. Tolosa-Hunt syndrome is a painful ophthalmoplegia from granulomatous inflammation of the cavernous sinus. The triangles of the cavernous sinus (Parkinson, Mullan, Glasscock, Kawase) define surgical windows for different approaches. Cavernous sinus thrombosis is a life-threatening infection requiring urgent antibiotics.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Gray571.png/800px-Gray571.png",
+              "caption": "Coronal section through the cavernous sinus showing neurovascular contents",
+              "labels": [
+                {"text": "Internal Carotid Artery", "x": 42, "y": 50},
+                {"text": "CN III (Oculomotor)", "x": 65, "y": 30},
+                {"text": "CN VI (Abducens)", "x": 55, "y": 50},
+                {"text": "CN V1, V2 (Trigeminal)", "x": 68, "y": 62}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Endovascular treatment of carotid-cavernous fistulas",
+            "Extended transsphenoidal approach for cavernous sinus invasion",
+            "Frontotemporal-orbitozygomatic approach for cavernous sinus meningiomas",
+            "Stereotactic radiosurgery for cavernous sinus lesions",
+            "Direct cavernous sinus surgery via Parkinson triangle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ventricular-system",
+      "name": "Ventricular System",
+      "icon": "💧",
+      "subregions": [
+        {
+          "id": "lateral-ventricles",
+          "name": "Lateral Ventricles",
+          "description": "The lateral ventricles are the largest of the cerebral ventricles, one within each cerebral hemisphere. Each lateral ventricle consists of five parts: frontal (anterior) horn, body, atrium (trigone), occipital (posterior) horn, and temporal (inferior) horn. The frontal horn is bounded medially by the septum pellucidum, laterally by the head of the caudate nucleus, and anteriorly by the genu of the corpus callosum. The body extends from the foramen of Monro to the splenium. The temporal horn curves anteroinferiorly into the temporal lobe, with the hippocampus forming its floor and the choroid plexus along its medial aspect. The choroid plexus is the primary site of CSF production (approximately 500 mL/day total, with CSF volume being approximately 150 mL at any time). The foramen of Monro (interventricular foramen) connects each lateral ventricle to the third ventricle.",
+          "keyStructures": [
+            "Frontal horn (bounded by caudate head and septum pellucidum)",
+            "Body of the lateral ventricle",
+            "Atrium (trigone, contains choroid plexus glomus)",
+            "Occipital horn (posterior horn)",
+            "Temporal horn (inferior horn, with hippocampus)",
+            "Foramen of Monro (interventricular foramen)",
+            "Choroid plexus",
+            "Septum pellucidum"
+          ],
+          "clinicalRelevance": "Intraventricular tumors include choroid plexus papillomas (atrium in children, fourth ventricle in adults), central neurocytomas (foramen of Monro region), subependymal giant cell astrocytomas (SEGA, in tuberous sclerosis), ependymomas, and meningiomas (atrium). Colloid cysts of the third ventricle can obstruct the foramen of Monro, causing acute obstructive hydrocephalus and sudden death. Transcortical or transcallosal approaches are used for intraventricular tumors. Endoscopic surgery through the lateral ventricle allows biopsy, tumor resection, and third ventriculostomy. Intraventricular hemorrhage (IVH) commonly extends from hypertensive basal ganglia hemorrhage and is associated with poor prognosis. External ventricular drain (EVD) placement typically targets the frontal horn at Kocher's point.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Gray734.png/800px-Gray734.png",
+              "caption": "Cast of the ventricular system showing lateral ventricle anatomy",
+              "labels": [
+                {"text": "Frontal Horn", "x": 35, "y": 20},
+                {"text": "Body", "x": 50, "y": 25},
+                {"text": "Atrium (Trigone)", "x": 70, "y": 35},
+                {"text": "Temporal Horn", "x": 55, "y": 65}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "External ventricular drain (EVD) placement at Kocher's point",
+            "Transcallosal approach for intraventricular tumors",
+            "Endoscopic intraventricular tumor biopsy/resection",
+            "Ventriculoperitoneal shunt placement",
+            "Transcortical approach for lateral ventricle tumors"
+          ]
+        },
+        {
+          "id": "third-ventricle",
+          "name": "Third Ventricle",
+          "description": "The third ventricle is a narrow, midline, slit-like cavity located between the two thalami. Its lateral walls are formed by the thalamus and hypothalamus. The roof is formed by a thin ependymal layer, the tela choroidea, and the fornix. The floor contains vital hypothalamic structures including the optic chiasm, tuber cinereum, infundibulum (pituitary stalk), mammillary bodies, and the posterior perforated substance. The anterior wall contains the lamina terminalis, the anterior commissure, and the columns of the fornix. The massa intermedia (interthalamic adhesion) crosses the ventricle in approximately 70% of individuals. The third ventricle communicates with the lateral ventricles via the paired foramina of Monro and with the fourth ventricle via the cerebral aqueduct (aqueduct of Sylvius).",
+          "keyStructures": [
+            "Foramina of Monro (anterior-superior)",
+            "Cerebral aqueduct (posterior-inferior exit)",
+            "Thalami (lateral walls)",
+            "Hypothalamus (floor and lower lateral walls)",
+            "Lamina terminalis (anterior wall)",
+            "Massa intermedia (interthalamic adhesion)",
+            "Mammillary bodies (floor)",
+            "Pineal recess and suprapineal recess (posterior)"
+          ],
+          "clinicalRelevance": "Colloid cysts at the foramen of Monro are the most common third ventricle tumors, presenting with intermittent obstructive hydrocephalus, positional headaches, and risk of sudden death from acute obstruction. They are treated with transcallosal microsurgery or neuroendoscopic resection. Craniopharyngiomas frequently involve the third ventricle and hypothalamus, making complete resection challenging due to hypothalamic injury risk (obesity, diabetes insipidus, panhypopituitarism). The lamina terminalis can be opened (lamina terminalis fenestration) during anterior communicating artery aneurysm surgery to treat hydrocephalus. Third ventricle floor tumors are approached via the transcallosal-interforniceal or subchoroidal routes. Pineal region tumors can compress the posterior third ventricle and aqueduct.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Gray734.png/800px-Gray734.png",
+              "caption": "Cast of the ventricular system highlighting the third ventricle",
+              "labels": [
+                {"text": "Third Ventricle", "x": 50, "y": 40},
+                {"text": "Foramen of Monro", "x": 42, "y": 30},
+                {"text": "Cerebral Aqueduct", "x": 65, "y": 50}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Transcallosal-interforniceal approach for third ventricle tumors",
+            "Endoscopic third ventriculostomy (ETV)",
+            "Endoscopic colloid cyst resection",
+            "Transcallosal-subchoroidal approach",
+            "Lamina terminalis fenestration"
+          ]
+        },
+        {
+          "id": "fourth-ventricle",
+          "name": "Fourth Ventricle",
+          "description": "The fourth ventricle is a diamond-shaped (rhomboid) cavity located between the cerebellum posteriorly and the pons and medulla anteriorly. Its floor is the rhomboid fossa, which is the dorsal surface of the pons and medulla, containing the facial colliculus (CN VII fibers looping over CN VI nucleus), the hypoglossal and vagal trigones, the striae medullares, and the area postrema (chemoreceptor trigger zone). The roof is formed by the superior medullary velum (superiorly), the inferior medullary velum, and the tela choroidea (inferiorly). CSF exits the fourth ventricle via three apertures: the paired lateral apertures (foramina of Luschka) opening into the cerebellopontine angle cisterns, and the median aperture (foramen of Magendie) opening into the cisterna magna. The obex marks the caudal apex of the fourth ventricle.",
+          "keyStructures": [
+            "Rhomboid fossa (floor)",
+            "Facial colliculus",
+            "Foramen of Magendie (median aperture)",
+            "Foramina of Luschka (lateral apertures)",
+            "Superior and inferior medullary velum (roof)",
+            "Obex",
+            "Area postrema",
+            "Choroid plexus of the fourth ventricle"
+          ],
+          "clinicalRelevance": "Fourth ventricle tumors are common in children, including medulloblastoma (arising from the vermis, filling the fourth ventricle), ependymoma (arising from the floor, often extending through the foramen of Luschka or Magendie), and pilocytic astrocytoma. The telovelar approach provides excellent exposure of the fourth ventricle without splitting the vermis, reducing the risk of cerebellar mutism syndrome. The floor of the fourth ventricle contains cranial nerve nuclei that must be mapped intraoperatively before tumor resection. Fourth ventricle outlet obstruction (Dandy-Walker malformation, atresia of foramina) causes non-communicating hydrocephalus. Rhomboid lip tumors (exophytic ependymoma) can extend into the CPA.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Gray734.png/800px-Gray734.png",
+              "caption": "Cast of the ventricular system showing the fourth ventricle",
+              "labels": [
+                {"text": "Fourth Ventricle", "x": 65, "y": 58},
+                {"text": "Cerebral Aqueduct (inlet)", "x": 62, "y": 48},
+                {"text": "Foramen of Magendie", "x": 68, "y": 70}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Telovelar approach for fourth ventricle tumors",
+            "Midline suboccipital craniotomy for medulloblastoma",
+            "Endoscopic aqueductoplasty for aqueductal stenosis",
+            "Fourth ventricle floor mapping during tumor resection"
+          ]
+        },
+        {
+          "id": "csf-circulation",
+          "name": "CSF Circulation",
+          "description": "Cerebrospinal fluid (CSF) is produced primarily by the choroid plexus (approximately 70%) in the lateral, third, and fourth ventricles at a rate of approximately 0.35 mL/min (500 mL/day). The total CSF volume is approximately 150 mL, turning over 3-4 times per day. CSF flows from the lateral ventricles through the foramina of Monro into the third ventricle, then via the cerebral aqueduct to the fourth ventricle. It exits the fourth ventricle through the foramen of Magendie and foramina of Luschka into the subarachnoid space. CSF circulates through the basal cisterns (interpeduncular, prepontine, cerebellomedullary/cisterna magna) and over the cerebral convexities. Absorption occurs primarily at the arachnoid granulations (Pacchionian granulations) into the dural venous sinuses, particularly the superior sagittal sinus. Recent evidence also supports lymphatic drainage via meningeal lymphatic vessels and the glymphatic system.",
+          "keyStructures": [
+            "Choroid plexus (lateral, third, and fourth ventricles)",
+            "Foramina of Monro (interventricular foramina)",
+            "Cerebral aqueduct (aqueduct of Sylvius)",
+            "Foramina of Luschka and Magendie",
+            "Subarachnoid cisterns (basal, ambient, quadrigeminal, cisterna magna)",
+            "Arachnoid granulations (Pacchionian granulations)",
+            "Glymphatic system and meningeal lymphatics"
+          ],
+          "clinicalRelevance": "Hydrocephalus is classified as obstructive (non-communicating) or communicating based on CSF pathway obstruction. Common causes of obstructive hydrocephalus include aqueductal stenosis, posterior fossa tumors, and colloid cysts. Communicating hydrocephalus results from impaired CSF absorption (post-SAH, post-meningitis) or overproduction (choroid plexus papilloma). Normal pressure hydrocephalus (NPH) presents with the Hakim triad (gait apraxia, urinary incontinence, dementia) and is treated with VP shunting. Endoscopic third ventriculostomy (ETV) creates an alternative CSF pathway by fenestrating the floor of the third ventricle into the prepontine cistern, bypassing aqueductal obstruction. CSF diversion options include ventriculoperitoneal (VP), ventriculoatrial (VA), and lumboperitoneal (LP) shunts. Shunt malfunction and infection remain significant complications, with approximately 30-40% of shunts failing within the first year.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Gray734.png/800px-Gray734.png",
+              "caption": "Ventricular system cast showing the complete CSF pathway",
+              "labels": [
+                {"text": "Lateral Ventricles (CSF production)", "x": 40, "y": 20},
+                {"text": "Third Ventricle", "x": 50, "y": 40},
+                {"text": "Aqueduct of Sylvius", "x": 62, "y": 48},
+                {"text": "Fourth Ventricle (CSF exit)", "x": 65, "y": 58}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Ventriculoperitoneal (VP) shunt placement",
+            "Endoscopic third ventriculostomy (ETV)",
+            "External ventricular drain (EVD) placement",
+            "Lumboperitoneal shunt placement",
+            "Choroid plexus cauterization (ETV/CPC)",
+            "Shunt revision surgery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peripheral-nerves",
+      "name": "Peripheral Nerves",
+      "icon": "⚡",
+      "subregions": [
+        {
+          "id": "brachial-plexus",
+          "name": "Brachial Plexus",
+          "description": "The brachial plexus is a complex network of nerves formed by the ventral rami of C5-T1 (with variable contributions from C4 and T2). It is organized into five levels: roots (C5-T1), trunks (upper C5-C6, middle C7, lower C8-T1), divisions (each trunk splits into anterior and posterior), cords (lateral, posterior, medial - named by their relationship to the axillary artery), and terminal branches. The plexus passes between the anterior and middle scalene muscles, over the first rib, behind the clavicle, and into the axilla. Terminal branches include the musculocutaneous nerve (lateral cord), median nerve (lateral and medial cords), ulnar nerve (medial cord), radial nerve (posterior cord), and axillary nerve (posterior cord). The long thoracic nerve (C5-C7) and dorsal scapular nerve (C5) arise directly from the roots.",
+          "keyStructures": [
+            "Roots (ventral rami C5-T1)",
+            "Trunks (upper, middle, lower)",
+            "Divisions (anterior and posterior)",
+            "Cords (lateral, posterior, medial)",
+            "Terminal branches (musculocutaneous, median, ulnar, radial, axillary)",
+            "Long thoracic nerve (C5-C7)",
+            "Dorsal scapular nerve (C5)",
+            "Suprascapular nerve (upper trunk)"
+          ],
+          "clinicalRelevance": "Brachial plexus injuries range from neonatal palsy (Erb-Duchenne C5-C6 upper trunk: waiter's tip, Klumpke C8-T1 lower trunk: claw hand) to adult traumatic avulsions (motorcycle accidents). Root avulsions are identified by pseudomeningoceles on MRI and absence of sensory nerve action potentials (since dorsal root ganglion is intact). Nerve transfer surgery (Oberlin transfer: ulnar nerve fascicle to biceps motor branch) is a key technique for upper plexus injuries. Thoracic outlet syndrome involves compression of the lower trunk and subclavian vessels by a cervical rib or fibrous band. Pancoast tumors (superior sulcus) can invade the lower brachial plexus. Radiation-induced brachial plexopathy must be distinguished from tumor recurrence (typically upper trunk, painless, with myokymia on EMG).",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Gray808.png/800px-Gray808.png",
+              "caption": "The brachial plexus showing roots, trunks, divisions, cords, and terminal branches",
+              "labels": [
+                {"text": "Roots (C5-T1)", "x": 15, "y": 30},
+                {"text": "Upper Trunk", "x": 30, "y": 22},
+                {"text": "Lateral Cord", "x": 55, "y": 28},
+                {"text": "Posterior Cord", "x": 55, "y": 42}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Brachial plexus exploration and neurolysis",
+            "Nerve transfer surgery (Oberlin transfer)",
+            "Nerve grafting for brachial plexus reconstruction",
+            "Thoracic outlet decompression (first rib resection)",
+            "Supraclavicular and infraclavicular plexus approaches"
+          ]
+        },
+        {
+          "id": "median-nerve",
+          "name": "Median Nerve",
+          "description": "The median nerve is formed by contributions from the lateral cord (C5-C7) and medial cord (C8-T1) of the brachial plexus, joining anterior to the axillary artery to form the characteristic lateral and medial heads. It descends in the arm along the brachial artery, crossing from lateral to medial (over the artery) at the mid-arm. In the cubital fossa, it passes deep to the bicipital aponeurosis (lacertus fibrosus) and between the two heads of the pronator teres. It gives off the anterior interosseous nerve (AIN) branch, which innervates the flexor pollicis longus, lateral half of flexor digitorum profundus, and pronator quadratus. The main trunk enters the hand through the carpal tunnel (deep to the transverse carpal ligament/flexor retinaculum) and divides into motor (thenar) and sensory branches. Sensory distribution covers the palmar aspect of the lateral three and a half digits and the dorsal fingertips.",
+          "keyStructures": [
+            "Lateral and medial heads (from lateral and medial cords)",
+            "Ligament of Struthers (supracondylar process)",
+            "Pronator teres (two heads, compression site)",
+            "Anterior interosseous nerve (AIN)",
+            "Carpal tunnel (between flexor retinaculum and carpal bones)",
+            "Thenar motor branch (recurrent branch)",
+            "Palmar cutaneous branch",
+            "Digital sensory branches"
+          ],
+          "clinicalRelevance": "Carpal tunnel syndrome (CTS) is the most common entrapment neuropathy, caused by compression of the median nerve within the carpal tunnel. It presents with nocturnal paresthesias in the median nerve distribution, weakness of thenar muscles (APB, opponens pollicis), and positive Phalen and Tinel signs. Electrodiagnostic studies (NCS/EMG) confirm the diagnosis by showing prolonged distal motor and sensory latencies. Carpal tunnel release (open or endoscopic) involves division of the transverse carpal ligament. Pronator syndrome involves compression at the pronator teres, lacertus fibrosus, or sublimis bridge. AIN syndrome (Kiloh-Nevin) presents with inability to make an 'OK' sign (weakness of FPL and FDP to index finger). High median nerve injuries (at elbow) produce the 'hand of benediction' when attempting to make a fist.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Gray812and814.svg/800px-Gray812and814.svg.png",
+              "caption": "Course of the median nerve through the arm, forearm, and hand",
+              "labels": [
+                {"text": "Median Nerve", "x": 50, "y": 20},
+                {"text": "Pronator Teres", "x": 48, "y": 42},
+                {"text": "Anterior Interosseous N.", "x": 55, "y": 52},
+                {"text": "Carpal Tunnel", "x": 48, "y": 80}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Open carpal tunnel release",
+            "Endoscopic carpal tunnel release",
+            "Median nerve decompression at pronator teres",
+            "Median nerve repair and grafting",
+            "Tendon transfers for median nerve palsy"
+          ]
+        },
+        {
+          "id": "ulnar-nerve",
+          "name": "Ulnar Nerve",
+          "description": "The ulnar nerve arises from the medial cord (C8-T1) of the brachial plexus. It descends in the arm medial to the brachial artery, pierces the medial intermuscular septum at the mid-arm (arcade of Struthers), and passes posterior to the medial epicondyle in the cubital tunnel (formed by the medial epicondyle, olecranon, and Osborne's ligament/arcuate ligament). In the forearm, it passes between the two heads of the flexor carpi ulnaris (FCU) and deep to it, alongside the ulnar artery. It gives motor branches to FCU and the medial half of flexor digitorum profundus (FDP). At the wrist, it enters the hand through Guyon's canal (between the pisiform and hook of hamate) and divides into superficial sensory and deep motor branches. The deep motor branch innervates all interossei, the medial two lumbricals, adductor pollicis, and the hypothenar muscles.",
+          "keyStructures": [
+            "Medial cord origin (C8-T1)",
+            "Arcade of Struthers (medial intermuscular septum)",
+            "Cubital tunnel (posterior to medial epicondyle)",
+            "Osborne's ligament (arcuate ligament of cubital tunnel)",
+            "Motor branches to FCU and medial FDP",
+            "Guyon's canal (ulnar tunnel at wrist)",
+            "Deep motor branch (interossei, adductor pollicis)",
+            "Dorsal cutaneous branch (arises proximal to wrist)"
+          ],
+          "clinicalRelevance": "Cubital tunnel syndrome is the second most common peripheral nerve entrapment after CTS. It presents with paresthesias in the small and ring fingers, weakness of intrinsic hand muscles, and clawing of the ring and small fingers (ulnar claw hand). The paradox of ulnar nerve injury is that higher injuries produce less clawing (due to concurrent FDP weakness). Froment sign (compensatory FPL flexion during key pinch due to adductor pollicis weakness) is a classic examination finding. Wartenberg sign (abducted small finger due to unopposed EDM) indicates ulnar nerve palsy. Surgical options include in situ decompression, medial epicondylectomy, and anterior transposition (subcutaneous, submuscular, or intramuscular). Guyon canal compression can be caused by ganglion cysts, hamate hook fractures, or ulnar artery thrombosis. EMG/NCS localize the site of compression.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Gray812and814.svg/800px-Gray812and814.svg.png",
+              "caption": "Course of the ulnar nerve through the arm and forearm to the hand",
+              "labels": [
+                {"text": "Ulnar Nerve", "x": 55, "y": 18},
+                {"text": "Cubital Tunnel (Medial Epicondyle)", "x": 58, "y": 38},
+                {"text": "Guyon's Canal", "x": 55, "y": 82}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Cubital tunnel decompression (in situ release)",
+            "Ulnar nerve anterior transposition (submuscular)",
+            "Medial epicondylectomy",
+            "Guyon canal decompression",
+            "Ulnar nerve repair and grafting"
+          ]
+        },
+        {
+          "id": "sciatic-nerve",
+          "name": "Sciatic Nerve",
+          "description": "The sciatic nerve is the largest nerve in the body, formed by the L4-S3 nerve roots from the lumbosacral plexus. It exits the pelvis through the greater sciatic foramen, typically inferior to the piriformis muscle (though anatomic variants exist in up to 16% of individuals, including passage through or above the piriformis). It descends in the posterior thigh between the greater trochanter and the ischial tuberosity, deep to the gluteus maximus and biceps femoris. The nerve consists of two distinct divisions throughout its course: the tibial division (anterior, from the anterior divisions of L4-S3) and the common peroneal (fibular) division (posterior, from the posterior divisions of L4-S2). These divisions typically separate in the distal thigh (popliteal fossa) into the tibial nerve and common peroneal nerve, though the division can occur at any level.",
+          "keyStructures": [
+            "Lumbosacral trunk (L4-L5) and sacral plexus (S1-S3)",
+            "Greater sciatic foramen",
+            "Piriformis muscle (landmark for nerve exit)",
+            "Tibial division (medial/anterior component)",
+            "Common peroneal division (lateral/posterior component)",
+            "Posterior cutaneous nerve of thigh (travels with sciatic)",
+            "Tibial nerve and common peroneal nerve (terminal branches)",
+            "Sural nerve (branch of tibial nerve in popliteal fossa)"
+          ],
+          "clinicalRelevance": "Sciatic nerve injuries can result from posterior hip dislocation, acetabular fractures, intramuscular injections (now rare with proper technique), and surgical positioning. The peroneal division is more susceptible to injury due to its lateral and superficial position and less surrounding connective tissue, leading to foot drop (weakness of ankle dorsiflexion and eversion). Piriformis syndrome involves entrapment of the sciatic nerve by the piriformis muscle, causing deep buttock pain and sciatica; it is a diagnosis of exclusion after ruling out lumbar disc herniation. Sciatic nerve tumors (schwannomas, neurofibromas) present as a palpable mass with Tinel sign and progressive neuropathy. Peroneal nerve entrapment at the fibular head is the most common lower extremity mononeuropathy, often associated with weight loss, prolonged leg crossing, or surgical positioning. Sciatic nerve block is used for regional anesthesia in lower extremity surgery.",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Gray832.png/800px-Gray832.png",
+              "caption": "Posterior view of the sciatic nerve and its branches in the lower extremity",
+              "labels": [
+                {"text": "Sciatic Nerve", "x": 50, "y": 15},
+                {"text": "Piriformis Muscle", "x": 55, "y": 8},
+                {"text": "Tibial Nerve", "x": 48, "y": 55},
+                {"text": "Common Peroneal Nerve", "x": 58, "y": 50}
+              ]
+            }
+          ],
+          "relatedProcedures": [
+            "Sciatic nerve exploration and neurolysis",
+            "Piriformis release for piriformis syndrome",
+            "Common peroneal nerve decompression at fibular head",
+            "Sciatic nerve tumor resection (schwannoma enucleation)",
+            "Nerve repair and grafting for traumatic sciatic injuries",
+            "Tendon transfers for foot drop (tibialis posterior transfer)"
+          ]
+        }
+      ]
+    }
+  ]
+}
